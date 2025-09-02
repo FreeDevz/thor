@@ -10,3 +10,47 @@ plugins {
     application
     idea
 }
+
+allprojects {
+    group = "io.awijaya"
+    version = "1.0.0"
+
+    repositories {
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+
+subprojects {
+    apply(plugin = "java")
+//    apply(plugin = "io.spring.dependency-management")
+
+    java {
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
+    }
+
+//    the<io.spring.gradle.dependencymanagement.dsl.DependencyManagementExtension>().apply {
+//        imports {
+//            mavenBom("org.springframework.boot:spring-boot-dependencies:3.1.0")
+//        }
+//    }
+
+    dependencies {
+        // Common dependencies for all subprojects
+//        testImplementation("org.junit.jupiter:junit-jupiter")
+//        testImplementation("org.mockito:mockito-core")
+//        testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+
+        testImplementation("org.junit.jupiter:junit-jupiter-api:5.10.2") // Use the latest stable version
+        testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.10.2") // Use the same version as API
+        testImplementation("org.mockito:mockito-core:5.+") // For Mockito Core
+        // Optional: For Kotlin extensions and syntactic sugar for Mockito
+        testImplementation("org.mockito.kotlin:mockito-kotlin:5.+")
+    }
+
+    tasks.test {
+        useJUnitPlatform()
+    }
+}
