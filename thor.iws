@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="refactored and added BinarySearchTree own implementation.">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/ClaudeBinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyBinarySearchTree.java" afterDir="false" />
+    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added ClaudeBinarySearchTree">
+      <change afterPath="$PROJECT_DIR$/app/ALGO_notey.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,6 +121,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
+    "Application.ClaudeBinarySearchTree.executor": "Run",
     "Application.MyBinarySearchTree.executor": "Run",
     "Gradle.Build thor.executor": "Run",
     "Gradle.thor:app [:app:io.awijaya.App.main()].executor": "Run",
@@ -396,7 +396,7 @@
       <workItem from="1756787094139" duration="131000" />
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
-      <workItem from="1756787643525" duration="7801000" />
+      <workItem from="1756787643525" duration="8457000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with Java project setup.">
       <option name="closed" value="true" />
@@ -422,7 +422,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756794337006</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added ClaudeBinarySearchTree">
+      <option name="closed" value="true" />
+      <created>1756804801989</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756804801989</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +440,8 @@
     <MESSAGE value="initial commit with Java project setup." />
     <MESSAGE value="fixed unit test dependencies" />
     <MESSAGE value="refactored and added BinarySearchTree own implementation." />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored and added BinarySearchTree own implementation." />
+    <MESSAGE value="added ClaudeBinarySearchTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ClaudeBinarySearchTree" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
