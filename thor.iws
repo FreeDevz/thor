@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="fixed unit test dependencies">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyBinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/BalancedParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/BalancedParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/BigOComplexityExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/BigOComplexityExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/EfficientSortingAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/EfficientSortingAlgorithms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/MyQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyQuickSort.java" afterDir="false" />
+    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="refactored and added BinarySearchTree own implementation.">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/ClaudeBinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyBinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +122,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
-    "Application.MyBinarySearchTree.executor": "Debug",
+    "Application.MyBinarySearchTree.executor": "Run",
     "Gradle.Build thor.executor": "Run",
     "Gradle.thor:app [:app:io.awijaya.App.main()].executor": "Run",
     "Gradle.thor:app [:app:io.awijaya.BalancedParentheses.main()].executor": "Run",
@@ -150,7 +147,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MyBinarySearchTree">
+  <component name="RunManager" selected="Application.ClaudeBinarySearchTree">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -186,8 +183,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EfficientSortingAlgorithms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.algo.EfficientSortingAlgorithms" />
+    <configuration name="ClaudeBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.algo.ClaudeBinarySearchTree" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -346,11 +343,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClaudeBinarySearchTree" />
         <item itemvalue="Application.MyBinarySearchTree" />
         <item itemvalue="JUnit.AppTest.appHasAGreeting" />
         <item itemvalue="Application.BalancedParentheses" />
         <item itemvalue="Application.MyQuickSort" />
-        <item itemvalue="Application.EfficientSortingAlgorithms" />
       </list>
     </recent_temporary>
   </component>
@@ -399,7 +396,7 @@
       <workItem from="1756787094139" duration="131000" />
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
-      <workItem from="1756787643525" duration="5150000" />
+      <workItem from="1756787643525" duration="7801000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with Java project setup.">
       <option name="closed" value="true" />
@@ -417,7 +414,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756787951983</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactored and added BinarySearchTree own implementation.">
+      <option name="closed" value="true" />
+      <created>1756794337006</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1756794337006</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,7 +431,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit with Java project setup." />
     <MESSAGE value="fixed unit test dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed unit test dependencies" />
+    <MESSAGE value="refactored and added BinarySearchTree own implementation." />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored and added BinarySearchTree own implementation." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -484,7 +490,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyBinarySearchTree.java</url>
-          <line>75</line>
+          <line>104</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
