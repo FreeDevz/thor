@@ -1,4 +1,4 @@
-package io.awijaya;
+package io.awijaya.algo;
 
 public class MyQuickSort {
 
