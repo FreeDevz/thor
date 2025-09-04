@@ -1,0 +1,75 @@
+package io.awijaya.algo;
+
+import java.util.*;
+
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode() {
+    }
+
+    TreeNode(int val) {
+        this.val = val;
+    }
+
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+}
+
+public class MyBinaryTreeInorderTraversal {
+
+    public List<Integer> inorderTraversalIterative(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode current = root;
+
+        while (current != null || !stack.isEmpty()) {
+            // Push all left nodes to stack
+            while (current != null) {
+                stack.push(current);
+                current = current.left;
+            }
+
+            // Pop and visit current node
+            current = stack.pop();
+            result.add(current.val);
+
+            // Move to right subtree
+            current = current.right;
+        }
+
+        return result;
+    }
+
+    public static TreeNode insert(TreeNode root, Integer data) {
+        if (root == null) {
+            return new TreeNode(data);
+        }
+        if (data == null) {
+
+        }
+//        if (data < root.val) {
+//            root.left = insert(root.left, data);
+//        }
+//        if (data > root.val) {
+//            root.right = insert(root.right, data);
+//        }
+        return root;
+    }
+
+    public static void main(String[] args) {
+        Integer[] test1 = {1, null, 2, 3};
+        TreeNode treeNode1 = null;
+        for (Integer data : test1) {
+            if (data != null) {
+                treeNode1 = insert(treeNode1, data);
+            }
+        }
+
+    }
+}

@@ -1,18 +1,17 @@
 package io.awijaya.algo;
 
-class TreeNode {
-    int data;
-    TreeNode left;
-    TreeNode right;
-
-    public TreeNode(int data) {
-        this.data = data;
-        this.left = null;
-        this.right = null;
-    }
-}
-
 public class ClaudeBinarySearchTree {
+    class TreeNode {
+        int data;
+        TreeNode left;
+        TreeNode right;
+
+        public TreeNode(int data) {
+            this.data = data;
+            this.left = null;
+            this.right = null;
+        }
+    }
     private TreeNode root;
 
     public ClaudeBinarySearchTree() {
