@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added ALGO_notey.md">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyBinaryTreeInorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyLongestCommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyMergedTwoLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyPalindromeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/ClaudeBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/ClaudeBinarySearchTree.java" afterDir="false" />
+    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added new algo tests">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyRemoveElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyMergedTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyMergedTwoLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,6 +130,7 @@
     "Application.MyBinaryTreeInorderTraversal.executor": "Debug",
     "Application.MyLongestCommonPrefix.executor": "Debug",
     "Application.MyPalindromeNumber.executor": "Run",
+    "Application.MyRemoveElement.executor": "Debug",
     "Gradle.Build thor.executor": "Run",
     "Gradle.thor:app [:app:io.awijaya.App.main()].executor": "Run",
     "Gradle.thor:app [:app:io.awijaya.BalancedParentheses.main()].executor": "Run",
@@ -154,11 +152,11 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.22758621",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.scala.settings.sections.EditorSettingsSectionConfigurable",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ClaudeBinarySearchTree">
+  <component name="RunManager" selected="Application.MyRemoveElement">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -181,21 +179,6 @@
     </configuration>
     <configuration name="ClaudeBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.awijaya.algo.ClaudeBinarySearchTree" />
-      <module name="app" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.awijaya.algo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.algo.MyBinarySearchTree" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -241,6 +224,21 @@
     </configuration>
     <configuration name="MyPalindromeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.awijaya.algo.MyPalindromeNumber" />
+      <module name="app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.awijaya.algo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyRemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.algo.MyRemoveElement" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -347,11 +345,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyRemoveElement" />
         <item itemvalue="Application.ClaudeBinarySearchTree" />
         <item itemvalue="Application.MyBinaryTreeInorderTraversal" />
         <item itemvalue="Application.MyLongestCommonPrefix" />
         <item itemvalue="Application.MyPalindromeNumber" />
-        <item itemvalue="Application.MyBinarySearchTree" />
       </list>
     </recent_temporary>
   </component>
@@ -400,7 +398,7 @@
       <workItem from="1756787094139" duration="131000" />
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
-      <workItem from="1756787643525" duration="23355000" />
+      <workItem from="1756787643525" duration="31893000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with Java project setup.">
       <option name="closed" value="true" />
@@ -442,7 +440,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756805473626</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added new algo tests">
+      <option name="closed" value="true" />
+      <created>1756961882778</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1756961882778</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +460,8 @@
     <MESSAGE value="refactored and added BinarySearchTree own implementation." />
     <MESSAGE value="added ClaudeBinarySearchTree" />
     <MESSAGE value="added ALGO_notey.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ALGO_notey.md" />
+    <MESSAGE value="added new algo tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new algo tests" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -519,6 +526,11 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyLongestCommonPrefix.java</url>
           <line>19</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyRemoveElement.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
