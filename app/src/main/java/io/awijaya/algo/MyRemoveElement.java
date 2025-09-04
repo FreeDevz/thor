@@ -7,6 +7,7 @@ public class MyRemoveElement {
     // first successful own implementation, with beats 100% in LeetCode
     public static int removeElement(int[] nums, int val) {
 
+        int k = 0;
         for (int i = 0; i < nums.length; i++) {
             int current = nums[i];
             if (current == val) {
@@ -16,17 +17,12 @@ public class MyRemoveElement {
                     if (next != val) { // swap only if next is not same as val
                         nums[i] = next;
                         nums[j] = current;
+                        k++;
                         break;
                     }
                     j++;
                 }
-            }
-        }
-
-        int k = 0;
-        for (int i = 0; i < nums.length; i++) {
-            int current = nums[i];
-            if (current != val) {
+            } else {
                 k++;
             }
         }

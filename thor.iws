@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added new algo tests">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyRemoveElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyMergedTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyMergedTwoLists.java" afterDir="false" />
+    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added MyRemoveElement algo test">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyRemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyRemoveElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +129,7 @@
     "Application.MyBinaryTreeInorderTraversal.executor": "Debug",
     "Application.MyLongestCommonPrefix.executor": "Debug",
     "Application.MyPalindromeNumber.executor": "Run",
-    "Application.MyRemoveElement.executor": "Debug",
+    "Application.MyRemoveElement.executor": "Run",
     "Gradle.Build thor.executor": "Run",
     "Gradle.thor:app [:app:io.awijaya.App.main()].executor": "Run",
     "Gradle.thor:app [:app:io.awijaya.BalancedParentheses.main()].executor": "Run",
@@ -398,7 +397,7 @@
       <workItem from="1756787094139" duration="131000" />
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
-      <workItem from="1756787643525" duration="31893000" />
+      <workItem from="1756787643525" duration="32144000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with Java project setup.">
       <option name="closed" value="true" />
@@ -448,7 +447,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756961882778</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added MyRemoveElement algo test">
+      <option name="closed" value="true" />
+      <created>1756980318036</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1756980318036</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +468,8 @@
     <MESSAGE value="added ClaudeBinarySearchTree" />
     <MESSAGE value="added ALGO_notey.md" />
     <MESSAGE value="added new algo tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new algo tests" />
+    <MESSAGE value="added MyRemoveElement algo test" />
+    <option name="LAST_COMMIT_MESSAGE" value="added MyRemoveElement algo test" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -529,7 +537,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyRemoveElement.java</url>
-          <line>33</line>
+          <line>29</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
