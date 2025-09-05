@@ -4,7 +4,6 @@ package io.awijaya.algo;
 
 public class MyRemoveElement {
 
-    // first successful own implementation, with beats 100% in LeetCode
     public static int removeElement(int[] nums, int val) {
 
         int k = 0;

@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added MyRemoveElement algo test">
+    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="improved MyRemoveElement algo">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyLengthOfLastWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyRemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyRomanToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyStudentAttendanceRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyValidParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyRemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyRemoveElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
@@ -129,7 +134,10 @@
     "Application.MyBinaryTreeInorderTraversal.executor": "Debug",
     "Application.MyLongestCommonPrefix.executor": "Debug",
     "Application.MyPalindromeNumber.executor": "Run",
+    "Application.MyRemoveDuplicatesFromSortedArray.executor": "Debug",
     "Application.MyRemoveElement.executor": "Run",
+    "Application.MyRomanToInteger.executor": "Run",
+    "Application.MyValidParentheses.executor": "Run",
     "Gradle.Build thor.executor": "Run",
     "Gradle.thor:app [:app:io.awijaya.App.main()].executor": "Run",
     "Gradle.thor:app [:app:io.awijaya.BalancedParentheses.main()].executor": "Run",
@@ -151,11 +159,11 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.22758621",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
+    "settings.editor.selected.configurable": "actions.on.save",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MyRemoveElement">
+  <component name="RunManager" selected="Application.MyRemoveDuplicatesFromSortedArray">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -191,38 +199,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyBinaryTreeInorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.algo.MyBinaryTreeInorderTraversal" />
-      <module name="app" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.awijaya.algo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyLongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.algo.MyLongestCommonPrefix" />
-      <module name="app" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.awijaya.algo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyPalindromeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.algo.MyPalindromeNumber" />
+    <configuration name="MyRemoveDuplicatesFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.algo.MyRemoveDuplicatesFromSortedArray" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -238,6 +216,36 @@
     </configuration>
     <configuration name="MyRemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.awijaya.algo.MyRemoveElement" />
+      <module name="app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.awijaya.algo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyRomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.algo.MyRomanToInteger" />
+      <module name="app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.awijaya.algo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.algo.MyValidParentheses" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -344,11 +352,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyRemoveDuplicatesFromSortedArray" />
+        <item itemvalue="Application.MyRomanToInteger" />
+        <item itemvalue="Application.MyValidParentheses" />
         <item itemvalue="Application.MyRemoveElement" />
         <item itemvalue="Application.ClaudeBinarySearchTree" />
-        <item itemvalue="Application.MyBinaryTreeInorderTraversal" />
-        <item itemvalue="Application.MyLongestCommonPrefix" />
-        <item itemvalue="Application.MyPalindromeNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +405,7 @@
       <workItem from="1756787094139" duration="131000" />
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
-      <workItem from="1756787643525" duration="32144000" />
+      <workItem from="1756787643525" duration="52402000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with Java project setup.">
       <option name="closed" value="true" />
@@ -455,7 +463,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756980318036</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="improved MyRemoveElement algo">
+      <option name="closed" value="true" />
+      <created>1756980626970</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1756980626970</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +485,8 @@
     <MESSAGE value="added ALGO_notey.md" />
     <MESSAGE value="added new algo tests" />
     <MESSAGE value="added MyRemoveElement algo test" />
-    <option name="LAST_COMMIT_MESSAGE" value="added MyRemoveElement algo test" />
+    <MESSAGE value="improved MyRemoveElement algo" />
+    <option name="LAST_COMMIT_MESSAGE" value="improved MyRemoveElement algo" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -537,7 +554,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyRemoveElement.java</url>
-          <line>29</line>
+          <line>28</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
