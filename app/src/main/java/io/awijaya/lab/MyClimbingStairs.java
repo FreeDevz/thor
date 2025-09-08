@@ -1,4 +1,4 @@
-package io.awijaya.algo;
+package io.awijaya.lab;
 
 public class MyClimbingStairs {
     public static int climbStairs(int n) {

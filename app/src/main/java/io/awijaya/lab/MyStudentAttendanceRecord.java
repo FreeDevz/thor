@@ -1,4 +1,4 @@
-package io.awijaya.algo;
+package io.awijaya.lab;
 
 public class MyStudentAttendanceRecord {
     public static boolean checkRecord(String s) {

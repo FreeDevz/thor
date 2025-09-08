@@ -1,8 +1,6 @@
-package io.awijaya.algo;
+package io.awijaya.lab;
 
 // https://leetcode.com/problems/sqrtx/description/
-
-import java.math.BigInteger;
 
 public class MySqrtx {
     public static int mySqrt(int x) {

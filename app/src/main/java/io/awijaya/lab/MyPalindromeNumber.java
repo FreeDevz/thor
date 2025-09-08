@@ -1,4 +1,4 @@
-package io.awijaya.algo;
+package io.awijaya.lab;
 
 /**
  * https://leetcode.com/problems/palindrome-number/description/

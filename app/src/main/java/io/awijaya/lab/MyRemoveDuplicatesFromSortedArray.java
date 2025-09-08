@@ -1,4 +1,4 @@
-package io.awijaya.algo;
+package io.awijaya.lab;
 
 public class MyRemoveDuplicatesFromSortedArray {
     public static int removeDuplicates(int[] nums) {

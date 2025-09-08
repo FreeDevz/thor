@@ -1,6 +1,4 @@
-package io.awijaya.algo;
-
-import java.util.Arrays;
+package io.awijaya.lab;
 
 /**
  * https://leetcode.com/problems/longest-common-prefix/description/
