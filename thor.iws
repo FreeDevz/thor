@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added more LeetCode algo" />
+    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="refactored package to lab">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyConvertArrayToBinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyBinaryTreeInorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyBinaryTreeInorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,6 +130,7 @@
     "Application.MyBinarySearchTree.executor": "Run",
     "Application.MyBinaryTreeInorderTraversal.executor": "Debug",
     "Application.MyClimbingStairs.executor": "Run",
+    "Application.MyConvertArrayToBinarySearchTree.executor": "Run",
     "Application.MyFibonacciSequence.executor": "Run",
     "Application.MyLongestCommonPrefix.executor": "Debug",
     "Application.MyMergeSortedArray.executor": "Run",
@@ -164,7 +169,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MySymmetricTree">
+  <component name="RunManager" selected="Application.MyConvertArrayToBinarySearchTree">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -185,8 +190,8 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="MyClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyClimbingStairs" />
+    <configuration name="MyConvertArrayToBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyConvertArrayToBinarySearchTree" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -353,11 +358,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyConvertArrayToBinarySearchTree" />
         <item itemvalue="Application.MySymmetricTree" />
         <item itemvalue="Application.MySameTree" />
         <item itemvalue="Application.MyMergeSortedArray" />
         <item itemvalue="Application.MyFibonacciSequence" />
-        <item itemvalue="Application.MyClimbingStairs" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +411,7 @@
       <workItem from="1756787094139" duration="131000" />
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
-      <workItem from="1756787643525" duration="85892000" />
+      <workItem from="1756787643525" duration="95329000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with Java project setup.">
       <option name="closed" value="true" />
@@ -504,7 +509,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757249955033</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="refactored package to lab">
+      <option name="closed" value="true" />
+      <created>1757293543525</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1757293543525</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,221 +536,242 @@
     <MESSAGE value="added MySqrtx algo" />
     <MESSAGE value="added MyClimbingStairs.java and MyFibonacciSequence.java to train on bottom-up dynamic programming." />
     <MESSAGE value="added more LeetCode algo" />
-    <option name="LAST_COMMIT_MESSAGE" value="added more LeetCode algo" />
+    <MESSAGE value="refactored package to lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored package to lab" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyQuickSort.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyQuickSort.java</url>
           <line>5</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyQuickSort.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyQuickSort.java</url>
           <line>6</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyQuickSort.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyQuickSort.java</url>
           <line>13</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyQuickSort.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyQuickSort.java</url>
           <line>14</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyQuickSort.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyQuickSort.java</url>
           <line>8</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyQuickSort.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyQuickSort.java</url>
           <line>7</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyQuickSort.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyQuickSort.java</url>
           <line>17</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyQuickSort.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyQuickSort.java</url>
           <line>18</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyQuickSort.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyQuickSort.java</url>
           <line>19</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyQuickSort.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyQuickSort.java</url>
           <line>22</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyBinarySearchTree.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyBinarySearchTree.java</url>
           <line>104</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyLongestCommonPrefix.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyLongestCommonPrefix.java</url>
           <line>19</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyRemoveElement.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyRemoveElement.java</url>
           <line>28</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyAddBinary.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyAddBinary.java</url>
           <line>18</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyAddBinary.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyAddBinary.java</url>
           <line>19</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyAddBinary.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyAddBinary.java</url>
           <line>22</line>
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyAddBinary.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyAddBinary.java</url>
           <line>23</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyAddBinary.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyAddBinary.java</url>
           <line>28</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyAddBinary.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyAddBinary.java</url>
           <line>16</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyAddBinary.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyAddBinary.java</url>
           <line>20</line>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyAddBinary.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyAddBinary.java</url>
           <line>24</line>
           <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyPlusOne.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPlusOne.java</url>
           <line>49</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyPlusOne.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPlusOne.java</url>
           <line>76</line>
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyPlusOne.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPlusOne.java</url>
           <line>79</line>
           <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyPlusOne.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPlusOne.java</url>
           <line>82</line>
           <option name="timeStamp" value="96" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyFibonacciSequence.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyFibonacciSequence.java</url>
           <line>25</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyFibonacciSequence.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyFibonacciSequence.java</url>
           <line>29</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyFibonacciSequence.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyFibonacciSequence.java</url>
           <line>31</line>
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyFibonacciSequence.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyFibonacciSequence.java</url>
           <line>33</line>
           <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyMergeSortedArray.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyMergeSortedArray.java</url>
           <line>53</line>
           <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyMergeSortedArray.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyMergeSortedArray.java</url>
           <line>55</line>
           <option name="timeStamp" value="126" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MyMergeSortedArray.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyMergeSortedArray.java</url>
           <line>61</line>
           <option name="timeStamp" value="127" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MySameTree.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySameTree.java</url>
           <line>8</line>
           <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MySameTree.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySameTree.java</url>
           <line>9</line>
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MySameTree.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySameTree.java</url>
           <line>11</line>
           <option name="timeStamp" value="132" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MySameTree.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySameTree.java</url>
           <line>20</line>
           <option name="timeStamp" value="133" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MySameTree.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySameTree.java</url>
           <line>12</line>
           <option name="timeStamp" value="134" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MySameTree.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySameTree.java</url>
           <line>13</line>
           <option name="timeStamp" value="135" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MySameTree.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySameTree.java</url>
           <line>15</line>
           <option name="timeStamp" value="136" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MySameTree.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySameTree.java</url>
           <line>17</line>
           <option name="timeStamp" value="137" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MySymmetricTree.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySymmetricTree.java</url>
           <line>18</line>
           <option name="timeStamp" value="139" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/algo/MySymmetricTree.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySymmetricTree.java</url>
           <line>19</line>
           <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyConvertArrayToBinarySearchTree.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyConvertArrayToBinarySearchTree.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyConvertArrayToBinarySearchTree.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyConvertArrayToBinarySearchTree.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="172" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

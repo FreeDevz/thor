@@ -19,6 +19,17 @@ class TreeNode {
         this.left = left;
         this.right = right;
     }
+
+    // Private recursive method for inorder traversal
+    public void preorderRecursive(TreeNode node) {
+        if (node != null) {
+            System.out.print(node.val + " ");
+            preorderRecursive(node.left);
+            preorderRecursive(node.right);
+        } else {
+            System.out.print("null ");
+        }
+    }
 }
 
 public class MyBinaryTreeInorderTraversal {
