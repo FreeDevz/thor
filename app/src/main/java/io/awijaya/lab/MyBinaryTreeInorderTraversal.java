@@ -21,6 +21,7 @@ class TreeNode {
     }
 
     // Private recursive method for inorder traversal
+    // Root -> Left -> Right
     public void preorderRecursive(TreeNode node) {
         if (node != null) {
             System.out.print(node.val + " ");

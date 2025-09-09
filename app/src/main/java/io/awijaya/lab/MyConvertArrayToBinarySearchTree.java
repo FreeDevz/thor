@@ -13,7 +13,7 @@ public class MyConvertArrayToBinarySearchTree {
 
     private static TreeNode buildBST(int[] nums, int left, int right) {
         // Base case: no more elements to process
-        if (left > right) {
+        if (left > right) { // needed to bigger than, not bigger equal condition, as we still need to process when left is equal to right.
             return null;
         }
 

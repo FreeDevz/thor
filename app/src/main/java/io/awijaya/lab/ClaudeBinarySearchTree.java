@@ -133,6 +133,7 @@ public class ClaudeBinarySearchTree {
     }
 
     // Private recursive method for inorder traversal
+    // Left -> Root -> Right
     private void inorderRecursive(TreeNode node) {
         if (node != null) {
             inorderRecursive(node.left);
@@ -165,6 +166,7 @@ public class ClaudeBinarySearchTree {
     }
 
     // Private recursive method for postorder traversal
+    // Left -> Right -> Root
     private void postorderRecursive(TreeNode node) {
         if (node != null) {
             postorderRecursive(node.left);
