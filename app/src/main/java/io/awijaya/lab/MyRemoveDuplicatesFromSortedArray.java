@@ -1,5 +1,7 @@
 package io.awijaya.lab;
 
+// https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
+
 public class MyRemoveDuplicatesFromSortedArray {
     public static int removeDuplicates(int[] nums) {
         if (nums == null || nums.length == 0) {
