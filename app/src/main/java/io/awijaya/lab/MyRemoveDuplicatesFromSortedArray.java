@@ -2,6 +2,8 @@ package io.awijaya.lab;
 
 // https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/
 
+// mytip: learnt to use two pointers for in-place arrays modification, swapping integers around.
+// an interesting observation here is that int k starts from 1
 public class MyRemoveDuplicatesFromSortedArray {
     public static int removeDuplicates(int[] nums) {
         if (nums == null || nums.length == 0) {

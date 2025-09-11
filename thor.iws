@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added more algo tests">
+    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added LeetCode link to MyRemoveDuplicatesFromSortedArray">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyMergedTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyMergedTwoLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyRemoveDuplicatesFromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyRemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySearchInsertPosition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,7 +172,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MyBalancedBinaryTree">
+  <component name="RunManager" selected="Application.MySearchInsertPosition">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -236,8 +238,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySameTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MySameTree" />
+    <configuration name="MySearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MySearchInsertPosition" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -359,11 +361,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MySearchInsertPosition" />
         <item itemvalue="Application.MyBalancedBinaryTree" />
         <item itemvalue="Application.MyMaxDepthBinaryTree" />
         <item itemvalue="Application.MyConvertArrayToBinarySearchTree" />
         <item itemvalue="Application.MySymmetricTree" />
-        <item itemvalue="Application.MySameTree" />
       </list>
     </recent_temporary>
   </component>
@@ -412,7 +414,7 @@
       <workItem from="1756787094139" duration="131000" />
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
-      <workItem from="1756787643525" duration="108490000" />
+      <workItem from="1756787643525" duration="117078000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with Java project setup.">
       <option name="closed" value="true" />
@@ -534,7 +536,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757408545199</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added LeetCode link to MyRemoveDuplicatesFromSortedArray">
+      <option name="closed" value="true" />
+      <created>1757410143191</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1757410143191</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,7 +566,8 @@
     <MESSAGE value="refactored package to lab" />
     <MESSAGE value="added MyConvertArrayToBinarySearchTree.java" />
     <MESSAGE value="added more algo tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="added more algo tests" />
+    <MESSAGE value="added LeetCode link to MyRemoveDuplicatesFromSortedArray" />
+    <option name="LAST_COMMIT_MESSAGE" value="added LeetCode link to MyRemoveDuplicatesFromSortedArray" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -811,6 +822,36 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyBalancedBinaryTree.java</url>
           <line>4</line>
           <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySearchInsertPosition.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySearchInsertPosition.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySearchInsertPosition.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySearchInsertPosition.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySearchInsertPosition.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySearchInsertPosition.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="191" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
