@@ -36,45 +36,6 @@ public class MyMergeSortedArray {
             }
             k--;
         }
-
-        if (nums1.length == 0) {
-            return;
-        }
-
-//        for (int i = m; i < nums1.length; i++) {
-//            for (int j = 0; j < nums2.length; j++) {
-//                nums1[i] = nums2[j];
-//                i++;
-//            }
-//        }
-//
-//        int i = 0;
-//        int j = nums1.length - 1;
-
-//        while ((m + j) < nums1.length && i < (m + j)) {
-//        while (i < j && i < m - 1 && j > m - 1) {
-//            if (nums1[i] > nums1[j]) {
-//                int tmp = nums1[j];
-//                nums1[j] = nums1[i];
-//                nums1[i] = tmp;
-//                j--;
-//            } else {
-//                i++;
-//            }
-//        }
-
-//        for (int i = 0; i < nums1.length - 1; i++) {
-//            int lookahead = m;
-//            while (lookahead < nums1.length - 1) {
-//                if (nums1[i] == nums1[lookahead]) {
-//                    int tmp = nums1[lookahead-1];
-//                    nums1[lookahead-1] = nums1[i];
-//                    nums1[i] = tmp;
-//                    break;
-//                }
-//                lookahead++;
-//            }
-//        }
     }
 
     public static void print(int[] nums) {
@@ -93,57 +54,57 @@ public class MyMergeSortedArray {
         merge(nums1Test, mTest, nums2Test, nTest); // 1,2,2,3,5,6
         print(nums1Test);
 
-        // ----------------------
-        System.out.println("=========================");
-        int[] nums1Test2 = {-1, 0, 0, 3, 3, 3, 0, 0, 0};
-        int mTest2 = 6;
-
-        int[] nums2Test2 = {1, 2, 2};
-        int nTest2 = 3;
-
-        merge(nums1Test2, mTest2, nums2Test2, nTest2); // -1,0,0,1,2,2,3,3,3
-        print(nums1Test2);
-
-        // ----------------------
-        System.out.println("=========================");
-        int[] nums1Test3 = {-1, 0, 1, 1, 0, 0, 0, 0, 0};
-        int mTest3 = 4;
-
-        int[] nums2Test3 = {-1, 0, 2, 2, 3};
-        int nTest3 = 5;
-
-        merge(nums1Test3, mTest3, nums2Test3, nTest3); // -1,-1,0,0,1,1,2,2,3
-        print(nums1Test3);
-
-        // ----------------------
-        System.out.println("=========================");
-        int[] nums1Test4 = {-1, 3, 0, 0, 0, 0, 0};
-        int mTest4 = 2;
-
-        int[] nums2Test4 = {0, 0, 1, 2, 3};
-        int nTest4 = 5;
-
-        merge(nums1Test4, mTest4, nums2Test4, nTest4); // -1,0,0,1,2,3,3
-        print(nums1Test4);
-
-        System.out.println("=========================");
-        int[] nums1Test5 = {1, 2, 3, 0, 0, 0};
-        int mTest5 = 3;
-
-        int[] nums2Test5 = {1, 2, 3};
-        int nTest5 = 3;
-
-        merge(nums1Test5, mTest5, nums2Test5, nTest5); // 1, 1, 2, 2, 3, 3
-        print(nums1Test5);
-
-        System.out.println("=========================");
-        int[] nums1Test6 = {1, 2, 4, 5, 6, 0};
-        int mTest6 = 5;
-
-        int[] nums2Test6 = {3};
-        int nTest6 = 1;
-
-        merge(nums1Test6, mTest6, nums2Test6, nTest6); // 1,2,3,4,5,6
-        print(nums1Test6);
+//        // ----------------------
+//        System.out.println("=========================");
+//        int[] nums1Test2 = {-1, 0, 0, 3, 3, 3, 0, 0, 0};
+//        int mTest2 = 6;
+//
+//        int[] nums2Test2 = {1, 2, 2};
+//        int nTest2 = 3;
+//
+//        merge(nums1Test2, mTest2, nums2Test2, nTest2); // -1,0,0,1,2,2,3,3,3
+//        print(nums1Test2);
+//
+//        // ----------------------
+//        System.out.println("=========================");
+//        int[] nums1Test3 = {-1, 0, 1, 1, 0, 0, 0, 0, 0};
+//        int mTest3 = 4;
+//
+//        int[] nums2Test3 = {-1, 0, 2, 2, 3};
+//        int nTest3 = 5;
+//
+//        merge(nums1Test3, mTest3, nums2Test3, nTest3); // -1,-1,0,0,1,1,2,2,3
+//        print(nums1Test3);
+//
+//        // ----------------------
+//        System.out.println("=========================");
+//        int[] nums1Test4 = {-1, 3, 0, 0, 0, 0, 0};
+//        int mTest4 = 2;
+//
+//        int[] nums2Test4 = {0, 0, 1, 2, 3};
+//        int nTest4 = 5;
+//
+//        merge(nums1Test4, mTest4, nums2Test4, nTest4); // -1,0,0,1,2,3,3
+//        print(nums1Test4);
+//
+//        System.out.println("=========================");
+//        int[] nums1Test5 = {1, 2, 3, 0, 0, 0};
+//        int mTest5 = 3;
+//
+//        int[] nums2Test5 = {1, 2, 3};
+//        int nTest5 = 3;
+//
+//        merge(nums1Test5, mTest5, nums2Test5, nTest5); // 1, 1, 2, 2, 3, 3
+//        print(nums1Test5);
+//
+//        System.out.println("=========================");
+//        int[] nums1Test6 = {1, 2, 4, 5, 6, 0};
+//        int mTest6 = 5;
+//
+//        int[] nums2Test6 = {3};
+//        int nTest6 = 1;
+//
+//        merge(nums1Test6, mTest6, nums2Test6, nTest6); // 1,2,3,4,5,6
+//        print(nums1Test6);
     }
 }
