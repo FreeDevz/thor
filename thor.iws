@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added 5 more LeetCode Easy tests">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPascalsTriangle2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPascalsTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPascalsTriangle.java" afterDir="false" />
+    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added MyPascalsTriangle tests">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyBestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyFindMostRequentVowelAndConsonant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySingleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySingleNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,11 +129,13 @@
     "Application.ClaudeBinarySearchTree.executor": "Run",
     "Application.MyAddBinary.executor": "Debug",
     "Application.MyBalancedBinaryTree.executor": "Run",
+    "Application.MyBestTimeToBuyAndSellStock.executor": "Debug",
     "Application.MyBinarySearchTree.executor": "Run",
     "Application.MyBinaryTreeInorderTraversal.executor": "Debug",
     "Application.MyClimbingStairs.executor": "Run",
     "Application.MyConvertArrayToBinarySearchTree.executor": "Run",
     "Application.MyFibonacciSequence.executor": "Run",
+    "Application.MyFindMostRequentVowelAndConsonant.executor": "Run",
     "Application.MyLongestCommonPrefix.executor": "Debug",
     "Application.MyMaxDepthBinaryTree.executor": "Debug",
     "Application.MyMergeSortedArray.executor": "Debug",
@@ -145,7 +148,7 @@
     "Application.MyRomanToInteger.executor": "Run",
     "Application.MySameTree.executor": "Run",
     "Application.MySearchInsertPosition.executor": "Run",
-    "Application.MySingleNumber.executor": "Debug",
+    "Application.MySingleNumber.executor": "Run",
     "Application.MySqrtx.executor": "Run",
     "Application.MySymmetricTree.executor": "Run",
     "Application.MyValidParentheses.executor": "Run",
@@ -174,7 +177,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MyPascalsTriangle2">
+  <component name="RunManager" selected="Application.MyFindMostRequentVowelAndConsonant">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -195,8 +198,23 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="MyMergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyMergeSortedArray" />
+    <configuration name="MyBestTimeToBuyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyBestTimeToBuyAndSellStock" />
+      <module name="app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.awijaya.lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyFindMostRequentVowelAndConsonant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyFindMostRequentVowelAndConsonant" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -227,21 +245,6 @@
     </configuration>
     <configuration name="MyPascalsTriangle2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyPascalsTriangle2" />
-      <module name="app" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.awijaya.lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MySearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MySearchInsertPosition" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -363,11 +366,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyFindMostRequentVowelAndConsonant" />
+        <item itemvalue="Application.MySingleNumber" />
+        <item itemvalue="Application.MyBestTimeToBuyAndSellStock" />
         <item itemvalue="Application.MyPascalsTriangle2" />
         <item itemvalue="Application.MyPascalsTriangle" />
-        <item itemvalue="Application.MySingleNumber" />
-        <item itemvalue="Application.MyMergeSortedArray" />
-        <item itemvalue="Application.MySearchInsertPosition" />
       </list>
     </recent_temporary>
   </component>
@@ -416,7 +419,7 @@
       <workItem from="1756787094139" duration="131000" />
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
-      <workItem from="1756787643525" duration="133187000" />
+      <workItem from="1756787643525" duration="146375000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with Java project setup.">
       <option name="closed" value="true" />
@@ -562,7 +565,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757663727013</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added MyPascalsTriangle tests">
+      <option name="closed" value="true" />
+      <created>1757688918818</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1757688918818</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,7 +598,8 @@
     <MESSAGE value="added LeetCode link to MyRemoveDuplicatesFromSortedArray" />
     <MESSAGE value="refactored" />
     <MESSAGE value="added 5 more LeetCode Easy tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 5 more LeetCode Easy tests" />
+    <MESSAGE value="added MyPascalsTriangle tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added MyPascalsTriangle tests" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -910,17 +922,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySingleNumber.java</url>
-          <line>11</line>
+          <line>15</line>
           <option name="timeStamp" value="203" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySingleNumber.java</url>
-          <line>9</line>
+          <line>13</line>
           <option name="timeStamp" value="207" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySingleNumber.java</url>
-          <line>8</line>
+          <line>12</line>
           <option name="timeStamp" value="208" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -992,6 +1004,91 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPascalsTriangle2.java</url>
           <line>18</line>
           <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyBestTimeToBuyAndSellStock.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyBestTimeToBuyAndSellStock.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyBestTimeToBuyAndSellStock.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyBestTimeToBuyAndSellStock.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyFindMostRequentVowelAndConsonant.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyFindMostRequentVowelAndConsonant.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyFindMostRequentVowelAndConsonant.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyFindMostRequentVowelAndConsonant.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyFindMostRequentVowelAndConsonant.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyFindMostRequentVowelAndConsonant.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyFindMostRequentVowelAndConsonant.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyFindMostRequentVowelAndConsonant.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyFindMostRequentVowelAndConsonant.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyFindMostRequentVowelAndConsonant.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyFindMostRequentVowelAndConsonant.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyFindMostRequentVowelAndConsonant.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyFindMostRequentVowelAndConsonant.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="256" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
