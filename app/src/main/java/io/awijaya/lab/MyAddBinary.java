@@ -1,5 +1,8 @@
 package io.awijaya.lab;
 
+/**
+ * https://leetcode.com/problems/add-binary/description/
+ */
 public class MyAddBinary {
 
     public static String addBinary(String a, String b) {
