@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added MyLinkedListCycle">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPrintFooBarAlternatively.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPrintInOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyValidPalindrome.java" afterDir="false" />
+    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added more tests.">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyBinaryTreePreorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyCountCompleteTreeNodes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,6 +133,7 @@
     "Application.MyBinaryTreeInorderTraversal.executor": "Debug",
     "Application.MyClimbingStairs.executor": "Run",
     "Application.MyConvertArrayToBinarySearchTree.executor": "Run",
+    "Application.MyCountCompleteTreeNodes.executor": "Run",
     "Application.MyFibonacciSequence.executor": "Run",
     "Application.MyFindMostRequentVowelAndConsonant.executor": "Run",
     "Application.MyLongestCommonPrefix.executor": "Debug",
@@ -178,7 +178,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MyValidPalindrome">
+  <component name="RunManager" selected="Application.MyCountCompleteTreeNodes">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -214,8 +214,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyFindMostRequentVowelAndConsonant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyFindMostRequentVowelAndConsonant" />
+    <configuration name="MyCountCompleteTreeNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyCountCompleteTreeNodes" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -229,8 +229,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyPascalsTriangle2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyPascalsTriangle2" />
+    <configuration name="MyFindMostRequentVowelAndConsonant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyFindMostRequentVowelAndConsonant" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -367,11 +367,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyCountCompleteTreeNodes" />
         <item itemvalue="Application.MyValidPalindrome" />
         <item itemvalue="Application.MyFindMostRequentVowelAndConsonant" />
         <item itemvalue="Application.MySingleNumber" />
         <item itemvalue="Application.MyBestTimeToBuyAndSellStock" />
-        <item itemvalue="Application.MyPascalsTriangle2" />
       </list>
     </recent_temporary>
   </component>
@@ -420,7 +420,7 @@
       <workItem from="1756787094139" duration="131000" />
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
-      <workItem from="1756787643525" duration="149643000" />
+      <workItem from="1756787643525" duration="152313000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with Java project setup.">
       <option name="closed" value="true" />
@@ -590,7 +590,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757911203422</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added more tests.">
+      <option name="closed" value="true" />
+      <created>1757914325718</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1757914325718</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -618,7 +626,8 @@
     <MESSAGE value="added MyPascalsTriangle tests" />
     <MESSAGE value="added more tests" />
     <MESSAGE value="added MyLinkedListCycle" />
-    <option name="LAST_COMMIT_MESSAGE" value="added MyLinkedListCycle" />
+    <MESSAGE value="added more tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="added more tests." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
