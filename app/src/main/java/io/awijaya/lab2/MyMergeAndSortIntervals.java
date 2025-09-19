@@ -58,9 +58,22 @@ public class MyMergeAndSortIntervals {
         testList.add(5);
 
 //        testList.sort( (a, b) -> Integer.compare(a, b));
-//        testList.sort(Integer::compare);
+        testList.sort(Integer::compare);
         testList.sort( Comparator.comparingInt(value -> value));
         for(Integer i: testList) {
+            System.out.println(i);
+        }
+
+        List<String> wordsList = new ArrayList<>();
+        wordsList.add("dog");
+        wordsList.add("chicken");
+        wordsList.add("air");
+        wordsList.add("buy");
+        wordsList.add("egg");
+        wordsList.add("Great");
+        wordsList.add("Food");
+        wordsList.sort(String::compareTo);
+        for(String i: wordsList) {
             System.out.println(i);
         }
     }

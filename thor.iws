@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="refactored and added HackkerRank medium problem">
+    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added sample to sort integers in arrays or list, use Arrays static method to sort, while we can use List instance method to sort.">
       <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab2/MyMergeAndSortIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab2/MyMergeAndSortIntervals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
@@ -424,7 +424,7 @@
       <workItem from="1756787094139" duration="131000" />
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
-      <workItem from="1756787643525" duration="186196000" />
+      <workItem from="1756787643525" duration="188628000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with Java project setup.">
       <option name="closed" value="true" />
@@ -634,7 +634,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758260019712</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="added sample to sort integers in arrays or list, use Arrays static method to sort, while we can use List instance method to sort.">
+      <option name="closed" value="true" />
+      <created>1758270027966</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1758270027966</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -665,7 +673,8 @@
     <MESSAGE value="refactored" />
     <MESSAGE value="add more LeetCode problems." />
     <MESSAGE value="refactored and added HackkerRank medium problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored and added HackkerRank medium problem" />
+    <MESSAGE value="added sample to sort integers in arrays or list, use Arrays static method to sort, while we can use List instance method to sort." />
+    <option name="LAST_COMMIT_MESSAGE" value="added sample to sort integers in arrays or list, use Arrays static method to sort, while we can use List instance method to sort." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
