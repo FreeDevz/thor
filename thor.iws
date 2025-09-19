@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added sample to sort integers in arrays or list, use Arrays static method to sort, while we can use List instance method to sort.">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab2/MyMergeAndSortIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab2/MyMergeAndSortIntervals.java" afterDir="false" />
+    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added more sort">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyMajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab2/MyDiagonalDifference.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,11 +136,13 @@
     "Application.MyCountAndSay.executor": "Run",
     "Application.MyCountCompleteTreeNodes.executor": "Run",
     "Application.MyCountingBits.executor": "Run",
+    "Application.MyDiagonalDifference.executor": "Run",
     "Application.MyExcelColumnSheetTitle.executor": "Run",
     "Application.MyFibonacciSequence.executor": "Run",
     "Application.MyFindMostRequentVowelAndConsonant.executor": "Run",
     "Application.MyIntersectionOfTwoLinkedLists.executor": "Run",
     "Application.MyLongestCommonPrefix.executor": "Debug",
+    "Application.MyMajorityElement.executor": "Run",
     "Application.MyMaxDepthBinaryTree.executor": "Debug",
     "Application.MyMergeAndSortIntervals.executor": "Run",
     "Application.MyMergeSortedArray.executor": "Debug",
@@ -182,7 +185,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MyMergeAndSortIntervals">
+  <component name="RunManager" selected="Application.MyDiagonalDifference">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -218,13 +221,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyCountingBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyCountingBits" />
+    <configuration name="MyDiagonalDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab2.MyDiagonalDifference" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.awijaya.lab.*" />
+          <option name="PATTERN" value="io.awijaya.lab2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,8 +251,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyIntersectionOfTwoLinkedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyIntersectionOfTwoLinkedLists" />
+    <configuration name="MyMajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyMajorityElement" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -371,11 +374,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyDiagonalDifference" />
+        <item itemvalue="Application.MyMajorityElement" />
         <item itemvalue="Application.MyMergeAndSortIntervals" />
         <item itemvalue="Application.MyCountAndSay" />
         <item itemvalue="Application.MyExcelColumnSheetTitle" />
-        <item itemvalue="Application.MyIntersectionOfTwoLinkedLists" />
-        <item itemvalue="Application.MyCountingBits" />
       </list>
     </recent_temporary>
   </component>
@@ -424,7 +427,7 @@
       <workItem from="1756787094139" duration="131000" />
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
-      <workItem from="1756787643525" duration="188628000" />
+      <workItem from="1756787643525" duration="192729000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with Java project setup.">
       <option name="closed" value="true" />
@@ -642,14 +645,21 @@
       <option name="project" value="LOCAL" />
       <updated>1758270027966</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="added more sort">
+      <option name="closed" value="true" />
+      <created>1758272864325</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1758272864325</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit with Java project setup." />
     <MESSAGE value="fixed unit test dependencies" />
     <MESSAGE value="refactored and added BinarySearchTree own implementation." />
     <MESSAGE value="added ClaudeBinarySearchTree" />
@@ -674,7 +684,8 @@
     <MESSAGE value="add more LeetCode problems." />
     <MESSAGE value="refactored and added HackkerRank medium problem" />
     <MESSAGE value="added sample to sort integers in arrays or list, use Arrays static method to sort, while we can use List instance method to sort." />
-    <option name="LAST_COMMIT_MESSAGE" value="added sample to sort integers in arrays or list, use Arrays static method to sort, while we can use List instance method to sort." />
+    <MESSAGE value="added more sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="added more sort" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1244,6 +1255,41 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyCountAndSay.java</url>
           <line>22</line>
           <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyMajorityElement.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyMajorityElement.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyMajorityElement.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyMajorityElement.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyMajorityElement.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyMajorityElement.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab2/MyDiagonalDifference.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="290" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
