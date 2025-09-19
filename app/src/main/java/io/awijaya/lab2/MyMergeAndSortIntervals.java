@@ -1,6 +1,9 @@
 package io.awijaya.lab2;
 
+import com.google.common.collect.Lists;
+
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
@@ -37,5 +40,28 @@ public class MyMergeAndSortIntervals {
         }
 
         return merged;
+    }
+
+    public static void main(String[] args) {
+        int[] test = {5, 3, 4, 2, 1};
+        Arrays.sort(test);
+
+        for(int i : test) {
+            System.out.println(i);
+        }
+
+        List<Integer> testList = new ArrayList<>();
+        testList.add(3);
+        testList.add(1);
+        testList.add(2);
+        testList.add(4);
+        testList.add(5);
+
+//        testList.sort( (a, b) -> Integer.compare(a, b));
+//        testList.sort(Integer::compare);
+        testList.sort( Comparator.comparingInt(value -> value));
+        for(Integer i: testList) {
+            System.out.println(i);
+        }
     }
 }
