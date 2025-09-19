@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added more sort">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyMajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab2/MyDiagonalDifference.java" afterDir="false" />
+    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added another HackerRank test.">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyReverseBits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,6 +151,7 @@
     "Application.MyPlusOne.executor": "Debug",
     "Application.MyRemoveDuplicatesFromSortedArray.executor": "Debug",
     "Application.MyRemoveElement.executor": "Run",
+    "Application.MyReverseBits.executor": "Run",
     "Application.MyRomanToInteger.executor": "Run",
     "Application.MySameTree.executor": "Run",
     "Application.MySearchInsertPosition.executor": "Run",
@@ -185,7 +185,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MyDiagonalDifference">
+  <component name="RunManager" selected="Application.MyReverseBits">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -236,21 +236,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyExcelColumnSheetTitle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyExcelColumnSheetTitle" />
-      <module name="app" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.awijaya.lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyMajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyMajorityElement" />
       <module name="app" />
@@ -273,6 +258,21 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.awijaya.lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyReverseBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyReverseBits" />
+      <module name="app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.awijaya.lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -374,11 +374,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyReverseBits" />
         <item itemvalue="Application.MyDiagonalDifference" />
         <item itemvalue="Application.MyMajorityElement" />
         <item itemvalue="Application.MyMergeAndSortIntervals" />
         <item itemvalue="Application.MyCountAndSay" />
-        <item itemvalue="Application.MyExcelColumnSheetTitle" />
       </list>
     </recent_temporary>
   </component>
@@ -427,7 +427,7 @@
       <workItem from="1756787094139" duration="131000" />
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
-      <workItem from="1756787643525" duration="192729000" />
+      <workItem from="1756787643525" duration="195028000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with Java project setup.">
       <option name="closed" value="true" />
@@ -653,14 +653,21 @@
       <option name="project" value="LOCAL" />
       <updated>1758272864325</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="added another HackerRank test.">
+      <option name="closed" value="true" />
+      <created>1758286980962</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1758286980962</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed unit test dependencies" />
     <MESSAGE value="refactored and added BinarySearchTree own implementation." />
     <MESSAGE value="added ClaudeBinarySearchTree" />
     <MESSAGE value="added ALGO_notey.md" />
@@ -685,7 +692,8 @@
     <MESSAGE value="refactored and added HackkerRank medium problem" />
     <MESSAGE value="added sample to sort integers in arrays or list, use Arrays static method to sort, while we can use List instance method to sort." />
     <MESSAGE value="added more sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="added more sort" />
+    <MESSAGE value="added another HackerRank test." />
+    <option name="LAST_COMMIT_MESSAGE" value="added another HackerRank test." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1290,6 +1298,11 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab2/MyDiagonalDifference.java</url>
           <line>31</line>
           <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyReverseBits.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="292" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
