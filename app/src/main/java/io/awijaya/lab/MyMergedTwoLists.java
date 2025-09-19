@@ -1,6 +1,9 @@
 package io.awijaya.lab;
 
-// https://leetcode.com/problems/merge-two-sorted-lists/
+/**
+ * https://leetcode.com/problems/merge-two-sorted-lists/
+ * level: easy
+ */
 public class MyMergedTwoLists {
     class ListNode {
         int val;

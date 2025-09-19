@@ -2,6 +2,7 @@ package io.awijaya.lab;
 
 /**
  * https://leetcode.com/problems/excel-sheet-column-title/description/
+ * level: easy
  */
 public class MyExcelColumnSheetTitle {
     public String convertToTitle(int columnNumber) {

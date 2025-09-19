@@ -5,7 +5,7 @@ import java.util.Set;
 
 /**
  * https://leetcode.com/problems/single-number/
- *
+ * level: easy
  */
 public class MySingleNumber {
     public int singleNumber(int[] nums) {

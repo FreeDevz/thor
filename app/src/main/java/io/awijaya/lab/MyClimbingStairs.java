@@ -1,5 +1,9 @@
 package io.awijaya.lab;
 
+/**
+ * https://leetcode.com/problems/climbing-stairs/
+ * level: easy
+ */
 public class MyClimbingStairs {
     public static int climbStairs(int n) {
         if (n <= 2) {

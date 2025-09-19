@@ -5,6 +5,7 @@ import java.util.List;
 
 /**
  * https://leetcode.com/problems/binary-tree-postorder-traversal/description/
+ * level: easy
  */
 public class MyBinaryTreePostorderTraversal {
     public List<Integer> postorderTraversal(TreeNode root) {

@@ -1,5 +1,9 @@
 package io.awijaya.lab;
 
+/**
+ * https://leetcode.com/problems/symmetric-tree/description/
+ * level: easy
+ */
 public class MySymmetricTree {
     public static boolean isSymmetric(TreeNode root) {
         if (root == null) {

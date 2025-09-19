@@ -1,5 +1,9 @@
 package io.awijaya.lab;
 
+/**
+ * https://leetcode.com/problems/student-attendance-record-i/
+ * level: easy
+ */
 public class MyStudentAttendanceRecord {
     public static boolean checkRecord(String s) {
 

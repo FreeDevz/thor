@@ -1,8 +1,9 @@
 package io.awijaya.lab;
 
-// https://leetcode.com/problems/same-tree/
-
-
+/**
+ * https://leetcode.com/problems/same-tree/
+ * level: easy
+ */
 public class MySameTree {
 
     public static boolean isSameTree(TreeNode p, TreeNode q) {

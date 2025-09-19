@@ -2,6 +2,10 @@ package io.awijaya.lab;
 
 import java.util.concurrent.Semaphore;
 
+/**
+ * https://leetcode.com/problems/print-in-order/
+ * level: easy
+ */
 public class MyPrintInOrder {
     private final Semaphore secondSemaphore = new Semaphore(0);
     private final Semaphore thirdSemaphore = new Semaphore(0);

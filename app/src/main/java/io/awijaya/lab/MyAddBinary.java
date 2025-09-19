@@ -2,6 +2,7 @@ package io.awijaya.lab;
 
 /**
  * https://leetcode.com/problems/add-binary/description/
+ * level: easy
  */
 public class MyAddBinary {
 

@@ -1,7 +1,9 @@
 package io.awijaya.lab;
 
-
-// https://leetcode.com/problems/path-sum/
+/**
+ * https://leetcode.com/problems/path-sum/
+ * level: easy
+ */
 public class MyPathSum {
     public boolean hasPathSum(TreeNode root, int targetSum) {
         if (root == null) return false;

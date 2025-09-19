@@ -2,6 +2,7 @@ package io.awijaya.lab;
 
 /**
  * https://leetcode.com/problems/longest-common-prefix/description/
+ * level: easy
  */
 public class MyLongestCommonPrefix {
 

@@ -2,7 +2,7 @@ package io.awijaya.lab;
 
 /**
  * https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
- *
+ * level: easy
  */
 public class MyBestTimeToBuyAndSellStock {
     public int maxProfit(int[] prices) {

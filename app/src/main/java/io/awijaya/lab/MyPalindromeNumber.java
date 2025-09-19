@@ -2,6 +2,7 @@ package io.awijaya.lab;
 
 /**
  * https://leetcode.com/problems/palindrome-number/description/
+ * level: easy
  */
 public class MyPalindromeNumber {
 

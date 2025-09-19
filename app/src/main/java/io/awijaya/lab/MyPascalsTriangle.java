@@ -6,6 +6,7 @@ import java.util.List;
 
 /**
  * https://leetcode.com/problems/pascals-triangle/description/
+ * level: easy
  */
 public class MyPascalsTriangle {
     public List<List<Integer>> generate(int numRows) {

@@ -1,10 +1,9 @@
 package io.awijaya.lab;
 
-
-import io.awijaya.lab.MyIntersectionOfTwoLinkedLists.ListNode;
-
-import java.util.List;
-
+/**
+ * https://leetcode.com/problems/intersection-of-two-linked-lists/
+ * level: easy
+ */
 public class MyIntersectionOfTwoLinkedLists {
     static class ListNode {
         int val;

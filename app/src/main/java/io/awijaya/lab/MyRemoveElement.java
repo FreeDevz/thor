@@ -1,7 +1,9 @@
 package io.awijaya.lab;
 
-// https://leetcode.com/problems/remove-element/
-
+/**
+ * https://leetcode.com/problems/remove-element/
+ * level: easy
+ */
 public class MyRemoveElement {
 
     public static int removeElement(int[] nums, int val) {

@@ -1,7 +1,9 @@
 package io.awijaya.lab;
 
-// https://leetcode.com/problems/minimum-depth-of-binary-tree/
-
+/**
+ * https://leetcode.com/problems/minimum-depth-of-binary-tree/
+ * level: easy
+ */
 public class MyMinimumDepthBinaryTree {
     public int minDepth(TreeNode root) {
         if (root == null) return 0;

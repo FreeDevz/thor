@@ -5,6 +5,7 @@ import java.util.List;
 
 /**
  * https://leetcode.com/problems/pascals-triangle-ii/
+ * level: easy
  */
 public class MyPascalsTriangle2 {
     public List<Integer> getRow(int rowIndex) {

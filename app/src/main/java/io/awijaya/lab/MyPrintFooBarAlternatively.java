@@ -4,6 +4,7 @@ import java.util.concurrent.Semaphore;
 
 /**
  * https://leetcode.com/problems/print-foobar-alternately/
+ * level: easy
  */
 public class MyPrintFooBarAlternatively {
     private int n;

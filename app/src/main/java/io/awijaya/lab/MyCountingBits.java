@@ -2,6 +2,7 @@ package io.awijaya.lab;
 
 /**
  * https://leetcode.com/problems/counting-bits/description/
+ * level: easy
  */
 public class MyCountingBits {
     /**

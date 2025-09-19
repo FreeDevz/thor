@@ -1,7 +1,9 @@
 package io.awijaya.lab;
 
-// https://leetcode.com/problems/sqrtx/description/
-
+/**
+ * https://leetcode.com/problems/sqrtx/description/
+ * level: easy
+ */
 public class MySqrtx {
     public static int mySqrt(int x) {
         if (x <= 1) return x;

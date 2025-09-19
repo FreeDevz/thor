@@ -6,6 +6,7 @@ import java.util.Set;
 
 /**
  * https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/description/
+ * level: easy
  */
 public class MyFindMostRequentVowelAndConsonant {
     public int maxFreqSum(String s) {

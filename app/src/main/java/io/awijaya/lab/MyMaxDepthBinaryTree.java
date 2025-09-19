@@ -1,7 +1,9 @@
 package io.awijaya.lab;
 
-// https://leetcode.com/problems/maximum-depth-of-binary-tree/
-
+/**
+ * https://leetcode.com/problems/maximum-depth-of-binary-tree/
+ * level: easy
+ */
 public class MyMaxDepthBinaryTree {
     public static int maxDepth(TreeNode root) {
         // Base case: if root is null, depth is 0

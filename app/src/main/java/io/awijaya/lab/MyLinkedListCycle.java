@@ -3,6 +3,10 @@ package io.awijaya.lab;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * https://leetcode.com/problems/linked-list-cycle/
+ * level: easy
+ */
 public class MyLinkedListCycle {
 
     class ListNode {

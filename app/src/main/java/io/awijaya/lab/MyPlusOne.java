@@ -1,9 +1,11 @@
 package io.awijaya.lab;
 
-// https://leetcode.com/problems/plus-one/description/
-
 import java.util.Stack;
 
+/**
+ * https://leetcode.com/problems/plus-one/description/
+ * level: easy
+ */
 public class MyPlusOne {
 
     public static int[] plusOne(int[] digits) {

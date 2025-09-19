@@ -2,6 +2,7 @@ package io.awijaya.lab;
 
 /**
  * https://leetcode.com/problems/valid-palindrome/
+ * level: easy
  */
 public class MyValidPalindrome {
     public boolean isPalindrome(String s) {

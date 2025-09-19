@@ -1,8 +1,5 @@
 package io.awijaya.lab;
 
-// https://leetcode.com/problems/merge-sorted-array/description/
-
-
 /**
  * Approach 1: Two Pointers from End (Optimal Solution)
  * <p>
@@ -16,6 +13,11 @@ package io.awijaya.lab;
  * <p>
  * Time Complexity: O(m + n) where m and n are the lengths of the arrays Space Complexity: O(1)
  * as we modify nums1 in-place
+ */
+
+/**
+ * https://leetcode.com/problems/merge-sorted-array/description/
+ * level: easy
  */
 public class MyMergeSortedArray {
 

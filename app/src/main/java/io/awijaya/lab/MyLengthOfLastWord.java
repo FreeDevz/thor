@@ -1,7 +1,9 @@
 package io.awijaya.lab;
 
-// https://leetcode.com/problems/length-of-last-word/submissions/1759371548/
-
+/**
+ * https://leetcode.com/problems/length-of-last-word/description
+ * level: easy
+ */
 public class MyLengthOfLastWord {
 
     public int lengthOfLastWord(String s) {

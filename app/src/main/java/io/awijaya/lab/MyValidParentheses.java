@@ -1,11 +1,13 @@
 package io.awijaya.lab;
 
-// https://leetcode.com/problems/valid-parentheses/description/
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
+/**
+ * https://leetcode.com/problems/valid-parentheses/description/
+ * level: easy
+ */
 public class MyValidParentheses {
 
     public static boolean isValid(String s) {

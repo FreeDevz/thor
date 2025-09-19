@@ -2,6 +2,7 @@ package io.awijaya.lab;
 
 /**
  * https://leetcode.com/problems/count-complete-tree-nodes/description/
+ * level: easy
  */
 public class MyCountCompleteTreeNodes {
     public int countNodes(TreeNode root) {
