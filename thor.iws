@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added another HackerRank test.">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyReverseBits.java" afterDir="false" />
+    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added MyReverseBits.java">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyReverseBits.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyReverseBits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -427,7 +427,7 @@
       <workItem from="1756787094139" duration="131000" />
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
-      <workItem from="1756787643525" duration="195028000" />
+      <workItem from="1756787643525" duration="195342000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with Java project setup.">
       <option name="closed" value="true" />
@@ -661,14 +661,21 @@
       <option name="project" value="LOCAL" />
       <updated>1758286980962</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="added MyReverseBits.java">
+      <option name="closed" value="true" />
+      <created>1758289796621</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1758289796621</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactored and added BinarySearchTree own implementation." />
     <MESSAGE value="added ClaudeBinarySearchTree" />
     <MESSAGE value="added ALGO_notey.md" />
     <MESSAGE value="added new algo tests" />
@@ -693,7 +700,8 @@
     <MESSAGE value="added sample to sort integers in arrays or list, use Arrays static method to sort, while we can use List instance method to sort." />
     <MESSAGE value="added more sort" />
     <MESSAGE value="added another HackerRank test." />
-    <option name="LAST_COMMIT_MESSAGE" value="added another HackerRank test." />
+    <MESSAGE value="added MyReverseBits.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="added MyReverseBits.java" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
