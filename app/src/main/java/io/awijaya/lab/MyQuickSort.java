@@ -2,6 +2,13 @@ package io.awijaya.lab;
 
 public class MyQuickSort {
 
+    /**
+     * video with animation explanation: https://www.youtube.com/watch?v=WprjBK0p6rw
+     *
+     * @param array
+     * @param low
+     * @param high
+     */
     public static void quickSort(int[] array, int low, int high) {
         if (low < high) {
             int pivotIndex = partition(array, low, high);
