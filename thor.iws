@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added MyReverseBits.java">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyQuickSort.java" afterDir="false" />
+    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added video for quicksort to understand by animation.">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyHappyNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,6 +139,7 @@
     "Application.MyExcelColumnSheetTitle.executor": "Run",
     "Application.MyFibonacciSequence.executor": "Run",
     "Application.MyFindMostRequentVowelAndConsonant.executor": "Run",
+    "Application.MyHappyNumber.executor": "Run",
     "Application.MyIntersectionOfTwoLinkedLists.executor": "Run",
     "Application.MyLongestCommonPrefix.executor": "Debug",
     "Application.MyMajorityElement.executor": "Run",
@@ -185,7 +186,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MyReverseBits">
+  <component name="RunManager" selected="Application.MyHappyNumber">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -206,13 +207,13 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="MyCountAndSay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyCountAndSay" />
+    <configuration name="MyDiagonalDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab2.MyDiagonalDifference" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.awijaya.lab.*" />
+          <option name="PATTERN" value="io.awijaya.lab2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,13 +222,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyDiagonalDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab2.MyDiagonalDifference" />
+    <configuration name="MyHappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyHappyNumber" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.awijaya.lab2.*" />
+          <option name="PATTERN" value="io.awijaya.lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -374,11 +375,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyHappyNumber" />
         <item itemvalue="Application.MyReverseBits" />
         <item itemvalue="Application.MyDiagonalDifference" />
         <item itemvalue="Application.MyMajorityElement" />
         <item itemvalue="Application.MyMergeAndSortIntervals" />
-        <item itemvalue="Application.MyCountAndSay" />
       </list>
     </recent_temporary>
   </component>
@@ -427,7 +428,7 @@
       <workItem from="1756787094139" duration="131000" />
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
-      <workItem from="1756787643525" duration="197357000" />
+      <workItem from="1756787643525" duration="206065000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with Java project setup.">
       <option name="closed" value="true" />
@@ -677,14 +678,21 @@
       <option name="project" value="LOCAL" />
       <updated>1758290101807</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="added video for quicksort to understand by animation.">
+      <option name="closed" value="true" />
+      <created>1758365113272</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1758365113272</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added ClaudeBinarySearchTree" />
     <MESSAGE value="added ALGO_notey.md" />
     <MESSAGE value="added new algo tests" />
     <MESSAGE value="added MyRemoveElement algo test" />
@@ -709,7 +717,8 @@
     <MESSAGE value="added more sort" />
     <MESSAGE value="added another HackerRank test." />
     <MESSAGE value="added MyReverseBits.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="added MyReverseBits.java" />
+    <MESSAGE value="added video for quicksort to understand by animation." />
+    <option name="LAST_COMMIT_MESSAGE" value="added video for quicksort to understand by animation." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1319,6 +1328,51 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyReverseBits.java</url>
           <line>8</line>
           <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyHappyNumber.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyHappyNumber.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="294" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyHappyNumber.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyHappyNumber.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyHappyNumber.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyHappyNumber.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyHappyNumber.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyHappyNumber.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyHappyNumber.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="301" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
