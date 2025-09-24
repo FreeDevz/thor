@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added video for quicksort to understand by animation.">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyHappyNumber.java" afterDir="false" />
+    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added MyHappyNumber">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyExcelSheetColumnNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,6 +137,7 @@
     "Application.MyCountingBits.executor": "Run",
     "Application.MyDiagonalDifference.executor": "Run",
     "Application.MyExcelColumnSheetTitle.executor": "Run",
+    "Application.MyExcelSheetColumnNumber.executor": "Run",
     "Application.MyFibonacciSequence.executor": "Run",
     "Application.MyFindMostRequentVowelAndConsonant.executor": "Run",
     "Application.MyHappyNumber.executor": "Run",
@@ -186,7 +187,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MyHappyNumber">
+  <component name="RunManager" selected="Application.MyExcelSheetColumnNumber">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -222,6 +223,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyExcelSheetColumnNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyExcelSheetColumnNumber" />
+      <module name="app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.awijaya.lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyHappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyHappyNumber" />
       <module name="app" />
@@ -244,21 +260,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.awijaya.lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyMergeAndSortIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab2.MyMergeAndSortIntervals" />
-      <module name="app" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.awijaya.lab2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -375,11 +376,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyExcelSheetColumnNumber" />
         <item itemvalue="Application.MyHappyNumber" />
         <item itemvalue="Application.MyReverseBits" />
         <item itemvalue="Application.MyDiagonalDifference" />
         <item itemvalue="Application.MyMajorityElement" />
-        <item itemvalue="Application.MyMergeAndSortIntervals" />
       </list>
     </recent_temporary>
   </component>
@@ -428,7 +429,7 @@
       <workItem from="1756787094139" duration="131000" />
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
-      <workItem from="1756787643525" duration="206065000" />
+      <workItem from="1756787643525" duration="210376000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with Java project setup.">
       <option name="closed" value="true" />
@@ -686,14 +687,21 @@
       <option name="project" value="LOCAL" />
       <updated>1758365113272</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="added MyHappyNumber">
+      <option name="closed" value="true" />
+      <created>1758553297066</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1758553297066</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added ALGO_notey.md" />
     <MESSAGE value="added new algo tests" />
     <MESSAGE value="added MyRemoveElement algo test" />
     <MESSAGE value="improved MyRemoveElement algo" />
@@ -718,7 +726,8 @@
     <MESSAGE value="added another HackerRank test." />
     <MESSAGE value="added MyReverseBits.java" />
     <MESSAGE value="added video for quicksort to understand by animation." />
-    <option name="LAST_COMMIT_MESSAGE" value="added video for quicksort to understand by animation." />
+    <MESSAGE value="added MyHappyNumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="added MyHappyNumber" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
