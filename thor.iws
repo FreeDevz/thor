@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added MyHappyNumber">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyExcelSheetColumnNumber.java" afterDir="false" />
+    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added MyExcelSheetColumnNumber">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyContainsDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyContainsDuplicate2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyNumberOfOneBits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,6 +133,7 @@
     "Application.MyBinarySearchTree.executor": "Run",
     "Application.MyBinaryTreeInorderTraversal.executor": "Debug",
     "Application.MyClimbingStairs.executor": "Run",
+    "Application.MyContainsDuplicate2.executor": "Run",
     "Application.MyConvertArrayToBinarySearchTree.executor": "Run",
     "Application.MyCountAndSay.executor": "Run",
     "Application.MyCountCompleteTreeNodes.executor": "Run",
@@ -147,6 +150,7 @@
     "Application.MyMaxDepthBinaryTree.executor": "Debug",
     "Application.MyMergeAndSortIntervals.executor": "Run",
     "Application.MyMergeSortedArray.executor": "Debug",
+    "Application.MyNumberOfOneBits.executor": "Run",
     "Application.MyPalindromeNumber.executor": "Run",
     "Application.MyPascalsTriangle.executor": "Run",
     "Application.MyPascalsTriangle2.executor": "Run",
@@ -187,7 +191,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MyExcelSheetColumnNumber">
+  <component name="RunManager" selected="Application.MyContainsDuplicate2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -208,13 +212,13 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="MyDiagonalDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab2.MyDiagonalDifference" />
+    <configuration name="MyContainsDuplicate2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyContainsDuplicate2" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.awijaya.lab2.*" />
+          <option name="PATTERN" value="io.awijaya.lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,8 +257,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyMajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyMajorityElement" />
+    <configuration name="MyNumberOfOneBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyNumberOfOneBits" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -376,11 +380,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyContainsDuplicate2" />
+        <item itemvalue="Application.MyNumberOfOneBits" />
         <item itemvalue="Application.MyExcelSheetColumnNumber" />
         <item itemvalue="Application.MyHappyNumber" />
         <item itemvalue="Application.MyReverseBits" />
-        <item itemvalue="Application.MyDiagonalDifference" />
-        <item itemvalue="Application.MyMajorityElement" />
       </list>
     </recent_temporary>
   </component>
@@ -429,7 +433,7 @@
       <workItem from="1756787094139" duration="131000" />
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
-      <workItem from="1756787643525" duration="210376000" />
+      <workItem from="1756787643525" duration="215056000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with Java project setup.">
       <option name="closed" value="true" />
@@ -695,14 +699,21 @@
       <option name="project" value="LOCAL" />
       <updated>1758553297066</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="added MyExcelSheetColumnNumber">
+      <option name="closed" value="true" />
+      <created>1758710408086</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1758710408086</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added new algo tests" />
     <MESSAGE value="added MyRemoveElement algo test" />
     <MESSAGE value="improved MyRemoveElement algo" />
     <MESSAGE value="added MyRemoveDuplicatesFromSortedArray algo" />
@@ -727,7 +738,8 @@
     <MESSAGE value="added MyReverseBits.java" />
     <MESSAGE value="added video for quicksort to understand by animation." />
     <MESSAGE value="added MyHappyNumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="added MyHappyNumber" />
+    <MESSAGE value="added MyExcelSheetColumnNumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="added MyExcelSheetColumnNumber" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
