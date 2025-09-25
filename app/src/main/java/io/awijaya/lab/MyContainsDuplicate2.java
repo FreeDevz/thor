@@ -1,40 +1,52 @@
 package io.awijaya.lab;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * https://leetcode.com/problems/contains-duplicate-ii/description/
  * level: easy
  */
 public class MyContainsDuplicate2 {
+
+    /**
+     * Approach 1: Sliding Window with HashSet - Optimal Solution
+     *
+     * Time Complexity: O(n) - Single pass through the array Space Complexity: O(min(n, k)) -
+     * HashSet stores at most k elements
+     *
+     * This is the most efficient approach for this problem. We maintain a sliding window of size
+     * k+1 using a HashSet. For each element, we check if it already exists in the current window.
+     *
+     * @param nums The input array
+     * @param k The maximum allowed distance between duplicate indices
+     * @return true if duplicates exist within distance k, false otherwise
+     */
     public boolean containsNearbyDuplicate(int[] nums, int k) {
-        Map<Integer, List<Integer>> seenWithValues = new HashMap<>();
-
-        for (int i = 0; i < nums.length; i++) {
-            int currentValue = nums[i];
-
-            if (!seenWithValues.containsKey(currentValue)) {
-                List<Integer> indices = new ArrayList<>();
-                indices.add(i);
-                seenWithValues.put(currentValue, indices);
-            } else {
-                List<Integer> previousIndices = seenWithValues.get(currentValue);
-                List<Integer> updatedIndices = new ArrayList<>(previousIndices);
-
-                for (int previousIndex : previousIndices) {
-                    if (Math.abs(i - previousIndex) <= k) {
-                        return true;
-                    } else {
-                        updatedIndices.add(i);
-                    }
-                }
-                seenWithValues.replace(currentValue, updatedIndices);
-            }
+        if (nums == null || nums.length <= 1 || k < 0) {
+            return false;
         }
 
+        // Special case: k = 0 means we can only have duplicates at the same index
+        // Since we can't have duplicates at the same index, return false
+        if (k == 0) {
+            return false;
+        }
+
+        Set<Integer> window = new HashSet<>();
+        for (int i = 0; i < nums.length; i++) {
+            // Remove element that's now outside the window (if window size > k)
+            if (i > k) {
+                window.remove(nums[i - k - 1]);
+            }
+
+            // Check if current element already exists in the window
+            if (window.contains(nums[i])) {
+                return true;
+            }
+
+            // Add current element to the window
+            window.add(nums[i]);
+        }
         return false;
     }
 

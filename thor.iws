@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added MyExcelSheetColumnNumber">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyContainsDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyContainsDuplicate2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyNumberOfOneBits.java" afterDir="false" />
+    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added new tests.">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyContainsDuplicate2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyContainsDuplicate2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -433,7 +431,7 @@
       <workItem from="1756787094139" duration="131000" />
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
-      <workItem from="1756787643525" duration="215056000" />
+      <workItem from="1756787643525" duration="215568000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with Java project setup.">
       <option name="closed" value="true" />
@@ -707,14 +705,21 @@
       <option name="project" value="LOCAL" />
       <updated>1758710408086</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="added new tests.">
+      <option name="closed" value="true" />
+      <created>1758781985330</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1758781985330</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added MyRemoveElement algo test" />
     <MESSAGE value="improved MyRemoveElement algo" />
     <MESSAGE value="added MyRemoveDuplicatesFromSortedArray algo" />
     <MESSAGE value="added MySqrtx algo" />
@@ -739,7 +744,8 @@
     <MESSAGE value="added video for quicksort to understand by animation." />
     <MESSAGE value="added MyHappyNumber" />
     <MESSAGE value="added MyExcelSheetColumnNumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="added MyExcelSheetColumnNumber" />
+    <MESSAGE value="added new tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="added new tests." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
