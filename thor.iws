@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added new tests.">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyContainsDuplicate2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyContainsDuplicate2.java" afterDir="false" />
+    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="refactored to use sliding window technique in MyContainsDuplicate2">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyImplementStackUsingQueues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyIsomorphicStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyRemoveLinkedListElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +144,9 @@
     "Application.MyFibonacciSequence.executor": "Run",
     "Application.MyFindMostRequentVowelAndConsonant.executor": "Run",
     "Application.MyHappyNumber.executor": "Run",
+    "Application.MyImplementStackUsingQueues.executor": "Run",
     "Application.MyIntersectionOfTwoLinkedLists.executor": "Run",
+    "Application.MyIsomorphicStrings.executor": "Run",
     "Application.MyLongestCommonPrefix.executor": "Debug",
     "Application.MyMajorityElement.executor": "Run",
     "Application.MyMaxDepthBinaryTree.executor": "Debug",
@@ -189,7 +193,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MyContainsDuplicate2">
+  <component name="RunManager" selected="Application.MyImplementStackUsingQueues">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -240,8 +244,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyHappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyHappyNumber" />
+    <configuration name="MyImplementStackUsingQueues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyImplementStackUsingQueues" />
+      <module name="app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.awijaya.lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyIsomorphicStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyIsomorphicStrings" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -257,21 +276,6 @@
     </configuration>
     <configuration name="MyNumberOfOneBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyNumberOfOneBits" />
-      <module name="app" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.awijaya.lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyReverseBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyReverseBits" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -378,11 +382,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyImplementStackUsingQueues" />
+        <item itemvalue="Application.MyIsomorphicStrings" />
         <item itemvalue="Application.MyContainsDuplicate2" />
         <item itemvalue="Application.MyNumberOfOneBits" />
         <item itemvalue="Application.MyExcelSheetColumnNumber" />
-        <item itemvalue="Application.MyHappyNumber" />
-        <item itemvalue="Application.MyReverseBits" />
       </list>
     </recent_temporary>
   </component>
@@ -431,7 +435,7 @@
       <workItem from="1756787094139" duration="131000" />
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
-      <workItem from="1756787643525" duration="215568000" />
+      <workItem from="1756787643525" duration="225962000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with Java project setup.">
       <option name="closed" value="true" />
@@ -713,14 +717,21 @@
       <option name="project" value="LOCAL" />
       <updated>1758781985330</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="refactored to use sliding window technique in MyContainsDuplicate2">
+      <option name="closed" value="true" />
+      <created>1758782425204</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1758782425204</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="improved MyRemoveElement algo" />
     <MESSAGE value="added MyRemoveDuplicatesFromSortedArray algo" />
     <MESSAGE value="added MySqrtx algo" />
     <MESSAGE value="added MyClimbingStairs.java and MyFibonacciSequence.java to train on bottom-up dynamic programming." />
@@ -745,7 +756,8 @@
     <MESSAGE value="added MyHappyNumber" />
     <MESSAGE value="added MyExcelSheetColumnNumber" />
     <MESSAGE value="added new tests." />
-    <option name="LAST_COMMIT_MESSAGE" value="added new tests." />
+    <MESSAGE value="refactored to use sliding window technique in MyContainsDuplicate2" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored to use sliding window technique in MyContainsDuplicate2" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
