@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added more LeetCode tests.">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/IntersectionOfTwoArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/IntersectionOfTwoArraysII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/InvertBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/ThirdMaximumNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/GuessNumberHigherOrLower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/ValidAnagram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,6 +127,7 @@
   "keyToString": {
     "Application.App.executor": "Run",
     "Application.ClaudeBinarySearchTree.executor": "Run",
+    "Application.GuessNumberHigherOrLower.executor": "Run",
     "Application.MyAddBinary.executor": "Debug",
     "Application.MyBalancedBinaryTree.executor": "Run",
     "Application.MyBestTimeToBuyAndSellStock.executor": "Debug",
@@ -172,6 +172,8 @@
     "Application.MyValidParentheses.executor": "Run",
     "Application.NumArray.executor": "Run",
     "Application.RangeSumQueryImmutable.executor": "Debug",
+    "Application.ReverseLinkedList.executor": "Debug",
+    "Application.ValidAnagram.executor": "Run",
     "Gradle.Build thor.executor": "Run",
     "Gradle.thor:app [:app:io.awijaya.App.main()].executor": "Run",
     "Gradle.thor:app [:app:io.awijaya.BalancedParentheses.main()].executor": "Run",
@@ -197,7 +199,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RangeSumQueryImmutable">
+  <component name="RunManager" selected="Application.ReverseLinkedList">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -218,38 +220,8 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="MyContainsDuplicate2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyContainsDuplicate2" />
-      <module name="app" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.awijaya.lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyImplementStackUsingQueues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyImplementStackUsingQueues" />
-      <module name="app" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.awijaya.lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyIsomorphicStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MyIsomorphicStrings" />
+    <configuration name="GuessNumberHigherOrLower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.GuessNumberHigherOrLower" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -280,6 +252,36 @@
     </configuration>
     <configuration name="RangeSumQueryImmutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.RangeSumQueryImmutable" />
+      <module name="app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.awijaya.lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.ReverseLinkedList" />
+      <module name="app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.awijaya.lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.ValidAnagram" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -386,11 +388,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseLinkedList" />
+        <item itemvalue="Application.ValidAnagram" />
+        <item itemvalue="Application.GuessNumberHigherOrLower" />
         <item itemvalue="Application.RangeSumQueryImmutable" />
         <item itemvalue="Application.MySummaryRanges" />
-        <item itemvalue="Application.MyImplementStackUsingQueues" />
-        <item itemvalue="Application.MyIsomorphicStrings" />
-        <item itemvalue="Application.MyContainsDuplicate2" />
       </list>
     </recent_temporary>
   </component>
@@ -439,7 +441,7 @@
       <workItem from="1756787094139" duration="131000" />
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
-      <workItem from="1756787643525" duration="243379000" />
+      <workItem from="1756787643525" duration="255225000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with Java project setup.">
       <option name="closed" value="true" />
@@ -753,7 +755,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759058951697</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="added more LeetCode tests.">
+      <option name="closed" value="true" />
+      <created>1759236364662</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1759236364662</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1470,6 +1480,36 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/RangeSumQueryImmutable.java</url>
           <line>31</line>
           <option name="timeStamp" value="307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/ReverseLinkedList.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/ReverseLinkedList.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/ReverseLinkedList.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="310" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/ReverseLinkedList.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/ReverseLinkedList.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/ReverseLinkedList.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="313" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
