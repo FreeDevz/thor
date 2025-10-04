@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added more LeetCode tests.">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/LongestHarmoniousSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab2/MyMergeAndSortIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab2/MyMergeAndSortIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MaximumAverageSubarray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,6 +127,7 @@
     "Application.ClaudeBinarySearchTree.executor": "Run",
     "Application.GuessNumberHigherOrLower.executor": "Run",
     "Application.LongestHarmoniousSubsequence.executor": "Run",
+    "Application.MaximumAverageSubarray.executor": "Run",
     "Application.MyAddBinary.executor": "Debug",
     "Application.MyBalancedBinaryTree.executor": "Run",
     "Application.MyBestTimeToBuyAndSellStock.executor": "Debug",
@@ -199,7 +199,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LongestHarmoniousSubsequence">
+  <component name="RunManager" selected="Application.MaximumAverageSubarray">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -250,8 +250,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RangeSumQueryImmutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.RangeSumQueryImmutable" />
+    <configuration name="MaximumAverageSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.MaximumAverageSubarray" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -388,11 +388,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumAverageSubarray" />
         <item itemvalue="Application.LongestHarmoniousSubsequence" />
         <item itemvalue="Application.ReverseLinkedList" />
         <item itemvalue="Application.ValidAnagram" />
         <item itemvalue="Application.GuessNumberHigherOrLower" />
-        <item itemvalue="Application.RangeSumQueryImmutable" />
       </list>
     </recent_temporary>
   </component>
@@ -441,7 +441,7 @@
       <workItem from="1756787094139" duration="131000" />
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
-      <workItem from="1756787643525" duration="261891000" />
+      <workItem from="1756787643525" duration="266263000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with Java project setup.">
       <option name="closed" value="true" />
@@ -771,7 +771,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759385464238</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="added more LeetCode tests.">
+      <option name="closed" value="true" />
+      <created>1759485267359</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1759485267359</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1518,6 +1526,11 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/ReverseLinkedList.java</url>
           <line>53</line>
           <option name="timeStamp" value="313" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MaximumAverageSubarray.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="316" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
