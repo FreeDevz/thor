@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added more LeetCode tests.">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MaximumAverageSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/DefuseTheBomb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/LongestNiceSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/SubstringsOfSizeThreeWithDistinctCharacters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,6 +127,7 @@
   "keyToString": {
     "Application.App.executor": "Run",
     "Application.ClaudeBinarySearchTree.executor": "Run",
+    "Application.DefuseTheBomb.executor": "Debug",
     "Application.GuessNumberHigherOrLower.executor": "Run",
     "Application.LongestHarmoniousSubsequence.executor": "Run",
     "Application.MaximumAverageSubarray.executor": "Run",
@@ -173,6 +176,7 @@
     "Application.NumArray.executor": "Run",
     "Application.RangeSumQueryImmutable.executor": "Debug",
     "Application.ReverseLinkedList.executor": "Debug",
+    "Application.SubstringsOfSizeThreeWithDistinctCharacters.executor": "Run",
     "Application.ValidAnagram.executor": "Run",
     "Gradle.Build thor.executor": "Run",
     "Gradle.thor:app [:app:io.awijaya.App.main()].executor": "Run",
@@ -199,7 +203,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MaximumAverageSubarray">
+  <component name="RunManager" selected="Application.SubstringsOfSizeThreeWithDistinctCharacters">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -220,8 +224,8 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="GuessNumberHigherOrLower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.GuessNumberHigherOrLower" />
+    <configuration name="DefuseTheBomb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.DefuseTheBomb" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -280,8 +284,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.ValidAnagram" />
+    <configuration name="SubstringsOfSizeThreeWithDistinctCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.SubstringsOfSizeThreeWithDistinctCharacters" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -388,11 +392,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubstringsOfSizeThreeWithDistinctCharacters" />
+        <item itemvalue="Application.DefuseTheBomb" />
         <item itemvalue="Application.MaximumAverageSubarray" />
         <item itemvalue="Application.LongestHarmoniousSubsequence" />
         <item itemvalue="Application.ReverseLinkedList" />
-        <item itemvalue="Application.ValidAnagram" />
-        <item itemvalue="Application.GuessNumberHigherOrLower" />
       </list>
     </recent_temporary>
   </component>
@@ -441,7 +445,7 @@
       <workItem from="1756787094139" duration="131000" />
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
-      <workItem from="1756787643525" duration="266263000" />
+      <workItem from="1756787643525" duration="284058000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with Java project setup.">
       <option name="closed" value="true" />
@@ -779,7 +783,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759485267359</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="added more LeetCode tests.">
+      <option name="closed" value="true" />
+      <created>1759551763090</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1759551763090</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1531,6 +1543,36 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MaximumAverageSubarray.java</url>
           <line>33</line>
           <option name="timeStamp" value="316" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/DefuseTheBomb.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="318" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/DefuseTheBomb.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="319" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/DefuseTheBomb.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/DefuseTheBomb.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="321" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/DefuseTheBomb.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/DefuseTheBomb.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="323" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
