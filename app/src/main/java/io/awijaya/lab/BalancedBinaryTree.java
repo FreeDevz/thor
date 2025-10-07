@@ -4,7 +4,7 @@ package io.awijaya.lab;
  * https://leetcode.com/problems/balanced-binary-tree/
  * level: easy
  */
-public class MyBalancedBinaryTree {
+public class BalancedBinaryTree {
     public static boolean isBalanced(TreeNode root) {
         return checkHeight(root) != -1;
     }

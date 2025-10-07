@@ -4,7 +4,7 @@ package io.awijaya.lab;
  * https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
  * level: easy
  */
-public class MyBestTimeToBuyAndSellStock {
+public class BestTimeToBuyAndSellStock {
     public int maxProfit(int[] prices) {
         if (prices == null || prices.length < 2) {
             return 0;
@@ -60,6 +60,6 @@ public class MyBestTimeToBuyAndSellStock {
 //        System.out.println(new MyBestTimeToBuyAndSellStock().maxProfit(test3)); // 7
 
         int[] test4 = {3, 2, 6, 5, 0, 3};
-        System.out.println(new MyBestTimeToBuyAndSellStock().maxProfit(test4)); // 4
+        System.out.println(new BestTimeToBuyAndSellStock().maxProfit(test4)); // 4
     }
 }

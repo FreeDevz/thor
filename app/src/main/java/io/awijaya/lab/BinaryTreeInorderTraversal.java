@@ -37,7 +37,7 @@ class TreeNode {
  * https://leetcode.com/problems/binary-tree-inorder-traversal/
  * level: easy
  */
-public class MyBinaryTreeInorderTraversal {
+public class BinaryTreeInorderTraversal {
 
     public List<Integer> inorderTraversalIterative(TreeNode root) {
         List<Integer> result = new ArrayList<>();

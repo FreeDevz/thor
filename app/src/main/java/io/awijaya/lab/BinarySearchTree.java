@@ -1,20 +1,20 @@
 package io.awijaya.lab;
 
-public class MyBinarySearchTree {
+public class BinarySearchTree {
     int value;
-    MyBinarySearchTree left;
-    MyBinarySearchTree right;
+    BinarySearchTree left;
+    BinarySearchTree right;
 
-    public MyBinarySearchTree(int value) {
+    public BinarySearchTree(int value) {
         this.value = value;
     }
 
-    public static MyBinarySearchTree createBST(int[] arr) {
-        MyBinarySearchTree root;
+    public static BinarySearchTree createBST(int[] arr) {
+        BinarySearchTree root;
         if (arr == null || arr.length == 0) {
             throw new IllegalArgumentException("Array cannot be null or empty");
         } else {
-            root = new MyBinarySearchTree(arr[0]);
+            root = new BinarySearchTree(arr[0]);
         }
 
         if (arr.length == 1) {
@@ -23,14 +23,14 @@ public class MyBinarySearchTree {
 
         for (int i = 1; i < arr.length; i++) {
             int nodeValue = arr[i];
-            MyBinarySearchTree parent = root;
-            MyBinarySearchTree current = parent;
+            BinarySearchTree parent = root;
+            BinarySearchTree current = parent;
 
             while (current != null) {
                 if (current.value > nodeValue) {
                     current = parent.left;
                     if (current == null) {
-                        current = new MyBinarySearchTree(nodeValue);
+                        current = new BinarySearchTree(nodeValue);
                         parent.left = current;
                         break;
                     } else {
@@ -39,7 +39,7 @@ public class MyBinarySearchTree {
                 } else {
                     current = parent.right;
                     if (current == null) {
-                        current = new MyBinarySearchTree(nodeValue);
+                        current = new BinarySearchTree(nodeValue);
                         parent.right = current;
                         break;
                     } else {
@@ -51,9 +51,9 @@ public class MyBinarySearchTree {
         return root;
     }
 
-    public static MyBinarySearchTree insertBSTRecursive(MyBinarySearchTree root, int data) {
+    public static BinarySearchTree insertBSTRecursive(BinarySearchTree root, int data) {
         if (root == null) {
-            return new MyBinarySearchTree(data);
+            return new BinarySearchTree(data);
         }
         if (data < root.value) {
             root.left = insertBSTRecursive(root.left, data);
@@ -66,7 +66,7 @@ public class MyBinarySearchTree {
 
     public boolean searchIterative(int data) {
         boolean isFound = false;
-        MyBinarySearchTree current = this;
+        BinarySearchTree current = this;
         while (current != null) {
             if (data == current.value) {
                 isFound = true;
@@ -95,17 +95,17 @@ public class MyBinarySearchTree {
 
     public static void main(String[] args) {
         int[] test1 = {3, 5, 6, 1, 8, 2, 4, 9, 7};
-        MyBinarySearchTree myBinarySearchTree = MyBinarySearchTree.createBST(test1);
-        myBinarySearchTree.printInOrder();
+        BinarySearchTree binarySearchTree = BinarySearchTree.createBST(test1);
+        binarySearchTree.printInOrder();
 
-        MyBinarySearchTree myBinarySearchTree2 = null;
+        BinarySearchTree binarySearchTree2 = null;
         for (int i = 0; i < test1.length; i++) {
-            myBinarySearchTree2 = insertBSTRecursive(myBinarySearchTree2, test1[i]);
+            binarySearchTree2 = insertBSTRecursive(binarySearchTree2, test1[i]);
         }
-        System.out.println(myBinarySearchTree2.searchIterative(1));
-        System.out.println(myBinarySearchTree2.searchIterative(5));
-        System.out.println(myBinarySearchTree2.searchIterative(8));
-        System.out.println(myBinarySearchTree2.searchIterative(9));
-        System.out.println(myBinarySearchTree2.searchIterative(10));
+        System.out.println(binarySearchTree2.searchIterative(1));
+        System.out.println(binarySearchTree2.searchIterative(5));
+        System.out.println(binarySearchTree2.searchIterative(8));
+        System.out.println(binarySearchTree2.searchIterative(9));
+        System.out.println(binarySearchTree2.searchIterative(10));
     }
 }

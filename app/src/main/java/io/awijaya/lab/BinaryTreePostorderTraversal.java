@@ -7,7 +7,7 @@ import java.util.List;
  * https://leetcode.com/problems/binary-tree-postorder-traversal/description/
  * level: easy
  */
-public class MyBinaryTreePostorderTraversal {
+public class BinaryTreePostorderTraversal {
     public List<Integer> postorderTraversal(TreeNode root) {
         if (root == null) return new ArrayList<>();
 

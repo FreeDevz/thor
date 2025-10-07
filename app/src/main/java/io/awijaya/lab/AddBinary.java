@@ -4,7 +4,7 @@ package io.awijaya.lab;
  * https://leetcode.com/problems/add-binary/description/
  * level: easy
  */
-public class MyAddBinary {
+public class AddBinary {
 
     public static String addBinary(String a, String b) {
         if (a == null || b == null) {
