@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added more LeetCode tests.">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/DefuseTheBomb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/LongestNiceSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/SubstringsOfSizeThreeWithDistinctCharacters.java" afterDir="false" />
+    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="refactored">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPascalsTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/PascalsTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPascalsTriangle2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/PascalsTriangle2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyReverseBits.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/ReverseBits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,9 +174,10 @@
     "Application.MyValidPalindrome.executor": "Run",
     "Application.MyValidParentheses.executor": "Run",
     "Application.NumArray.executor": "Run",
+    "Application.PascalsTriangle2.executor": "Debug",
     "Application.RangeSumQueryImmutable.executor": "Debug",
     "Application.ReverseLinkedList.executor": "Debug",
-    "Application.SubstringsOfSizeThreeWithDistinctCharacters.executor": "Run",
+    "Application.SubstringsOfSizeThreeWithDistinctCharacters.executor": "Debug",
     "Application.ValidAnagram.executor": "Run",
     "Gradle.Build thor.executor": "Run",
     "Gradle.thor:app [:app:io.awijaya.App.main()].executor": "Run",
@@ -203,7 +204,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SubstringsOfSizeThreeWithDistinctCharacters">
+  <component name="RunManager" selected="Application.PascalsTriangle2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -269,8 +270,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.ReverseLinkedList" />
+    <configuration name="PascalsTriangle2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.PascalsTriangle2" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -392,11 +393,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PascalsTriangle2" />
         <item itemvalue="Application.SubstringsOfSizeThreeWithDistinctCharacters" />
         <item itemvalue="Application.DefuseTheBomb" />
         <item itemvalue="Application.MaximumAverageSubarray" />
         <item itemvalue="Application.LongestHarmoniousSubsequence" />
-        <item itemvalue="Application.ReverseLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -445,7 +446,7 @@
       <workItem from="1756787094139" duration="131000" />
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
-      <workItem from="1756787643525" duration="284058000" />
+      <workItem from="1756787643525" duration="288213000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with Java project setup.">
       <option name="closed" value="true" />
@@ -791,14 +792,29 @@
       <option name="project" value="LOCAL" />
       <updated>1759551763090</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="added more LeetCode tests for sliding window and substring problems.">
+      <option name="closed" value="true" />
+      <created>1759754347225</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1759754347225</updated>
+    </task>
+    <task id="LOCAL-00045" summary="refactored">
+      <option name="closed" value="true" />
+      <created>1759831390735</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1759831390735</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added MySqrtx algo" />
     <MESSAGE value="added MyClimbingStairs.java and MyFibonacciSequence.java to train on bottom-up dynamic programming." />
     <MESSAGE value="added more LeetCode algo" />
     <MESSAGE value="refactored package to lab" />
@@ -810,7 +826,6 @@
     <MESSAGE value="added more tests" />
     <MESSAGE value="added MyLinkedListCycle" />
     <MESSAGE value="added more tests." />
-    <MESSAGE value="refactored" />
     <MESSAGE value="add more LeetCode problems." />
     <MESSAGE value="refactored and added HackkerRank medium problem" />
     <MESSAGE value="added sample to sort integers in arrays or list, use Arrays static method to sort, while we can use List instance method to sort." />
@@ -823,7 +838,9 @@
     <MESSAGE value="added new tests." />
     <MESSAGE value="refactored to use sliding window technique in MyContainsDuplicate2" />
     <MESSAGE value="added more LeetCode tests." />
-    <option name="LAST_COMMIT_MESSAGE" value="added more LeetCode tests." />
+    <MESSAGE value="added more LeetCode tests for sliding window and substring problems." />
+    <MESSAGE value="refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -880,7 +897,7 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyBinarySearchTree.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/BinarySearchTree.java</url>
           <line>104</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
@@ -895,42 +912,42 @@
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyAddBinary.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/AddBinary.java</url>
           <line>18</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyAddBinary.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/AddBinary.java</url>
           <line>19</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyAddBinary.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/AddBinary.java</url>
           <line>22</line>
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyAddBinary.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/AddBinary.java</url>
           <line>23</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyAddBinary.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/AddBinary.java</url>
           <line>28</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyAddBinary.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/AddBinary.java</url>
           <line>16</line>
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyAddBinary.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/AddBinary.java</url>
           <line>20</line>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyAddBinary.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/AddBinary.java</url>
           <line>24</line>
           <option name="timeStamp" value="77" />
         </line-breakpoint>
@@ -1075,7 +1092,7 @@
           <option name="timeStamp" value="179" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyBalancedBinaryTree.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/BalancedBinaryTree.java</url>
           <line>8</line>
           <option name="timeStamp" value="182" />
         </line-breakpoint>
@@ -1160,92 +1177,72 @@
           <option name="timeStamp" value="208" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPascalsTriangle.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/PascalsTriangle.java</url>
           <line>35</line>
           <option name="timeStamp" value="210" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPascalsTriangle.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/PascalsTriangle.java</url>
           <line>36</line>
           <option name="timeStamp" value="212" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPascalsTriangle.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/PascalsTriangle.java</url>
           <line>38</line>
           <option name="timeStamp" value="213" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPascalsTriangle.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/PascalsTriangle.java</url>
           <line>39</line>
           <option name="timeStamp" value="214" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPascalsTriangle.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/PascalsTriangle.java</url>
           <line>29</line>
           <option name="timeStamp" value="215" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPascalsTriangle.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/PascalsTriangle.java</url>
           <line>30</line>
           <option name="timeStamp" value="216" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPascalsTriangle.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/PascalsTriangle.java</url>
           <line>41</line>
           <option name="timeStamp" value="217" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPascalsTriangle2.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/PascalsTriangle2.java</url>
           <line>21</line>
           <option name="timeStamp" value="218" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPascalsTriangle2.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/PascalsTriangle2.java</url>
           <line>22</line>
           <option name="timeStamp" value="219" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPascalsTriangle2.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/PascalsTriangle2.java</url>
           <line>23</line>
           <option name="timeStamp" value="220" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPascalsTriangle2.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="221" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPascalsTriangle2.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="228" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPascalsTriangle2.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="229" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyPascalsTriangle2.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="230" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyBestTimeToBuyAndSellStock.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/BestTimeToBuyAndSellStock.java</url>
           <line>19</line>
           <option name="timeStamp" value="240" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyBestTimeToBuyAndSellStock.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/BestTimeToBuyAndSellStock.java</url>
           <line>16</line>
           <option name="timeStamp" value="241" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyBestTimeToBuyAndSellStock.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/BestTimeToBuyAndSellStock.java</url>
           <line>17</line>
           <option name="timeStamp" value="242" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyBestTimeToBuyAndSellStock.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/BestTimeToBuyAndSellStock.java</url>
           <line>23</line>
           <option name="timeStamp" value="243" />
         </line-breakpoint>
@@ -1430,7 +1427,7 @@
           <option name="timeStamp" value="290" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyReverseBits.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/ReverseBits.java</url>
           <line>8</line>
           <option name="timeStamp" value="292" />
         </line-breakpoint>

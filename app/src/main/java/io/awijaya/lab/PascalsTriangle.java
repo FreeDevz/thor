@@ -8,7 +8,7 @@ import java.util.List;
  * https://leetcode.com/problems/pascals-triangle/description/
  * level: easy
  */
-public class MyPascalsTriangle {
+public class PascalsTriangle {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> result = new ArrayList<>();
 
@@ -50,6 +50,6 @@ public class MyPascalsTriangle {
     }
 
     public static void main(String[] args) {
-        new MyPascalsTriangle().generate(5);
+        new PascalsTriangle().generate(5);
     }
 }

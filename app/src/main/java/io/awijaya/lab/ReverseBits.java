@@ -4,7 +4,7 @@ package io.awijaya.lab;
  * https://leetcode.com/problems/reverse-bits/description/
  * level: easy
  */
-public class MyReverseBits {
+public class ReverseBits {
     public int reverseBits(int n) {
         String binaryString = String.format("%32s", Integer.toBinaryString(n)).replace(' ', '0');
         StringBuilder reversedStringBuilder = new StringBuilder();
@@ -41,9 +41,9 @@ public class MyReverseBits {
     }
 
     public static void main(String[] args) {
-        MyReverseBits myReverseBits = new MyReverseBits();
-        System.out.println(myReverseBits.reverseBits(43261596)); // 964176192
-        System.out.println(myReverseBits.reverseBits(2147483644)); // 1073741822
+        ReverseBits reverseBits = new ReverseBits();
+        System.out.println(reverseBits.reverseBits(43261596)); // 964176192
+        System.out.println(reverseBits.reverseBits(2147483644)); // 1073741822
 
         int positiveNum = 12; // Binary: 0000...00001100
         int negativeNum = -12; // Binary: 1111...11110100 (two's complement)

@@ -8,7 +8,7 @@ import java.util.Stack;
  * https://leetcode.com/problems/valid-parentheses/description/
  * level: easy
  */
-public class MyValidParentheses {
+public class ValidParentheses {
 
     public static boolean isValid(String s) {
         if (s == null || s.isEmpty()) {

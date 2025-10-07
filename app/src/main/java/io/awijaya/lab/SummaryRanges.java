@@ -7,7 +7,7 @@ import java.util.List;
  * https://leetcode.com/problems/summary-ranges/description/
  * level: easy
  */
-public class MySummaryRanges {
+public class SummaryRanges {
     public List<String> summaryRanges(int[] nums) {
         if (nums.length == 0) return List.of();
         if (nums.length == 1) return List.of(String.valueOf(nums[0]));
@@ -85,23 +85,23 @@ public class MySummaryRanges {
     }
 
     public static void main(String[] args) {
-        MySummaryRanges mySummaryRanges = new MySummaryRanges();
+        SummaryRanges summaryRanges = new SummaryRanges();
 
         int[] test = {0, 1, 2, 4, 5, 7};
         // "0->2","4->5","7"
-        for (String result : mySummaryRanges.summaryRanges(test)) {
+        for (String result : summaryRanges.summaryRanges(test)) {
             System.out.println(result);
         }
 
         int[] test2 = {0, 2, 3, 4, 6, 8, 9};
         // "0","2->4","6","8->9"
-        for (String result : mySummaryRanges.summaryRanges(test2)) {
+        for (String result : summaryRanges.summaryRanges(test2)) {
             System.out.println(result);
         }
 
         int[] test3 = {1, 3};
         // "1","3"
-        for (String result : mySummaryRanges.summaryRanges(test3)) {
+        for (String result : summaryRanges.summaryRanges(test3)) {
             System.out.println(result);
         }
     }

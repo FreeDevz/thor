@@ -7,7 +7,7 @@ import java.util.List;
  * https://leetcode.com/problems/pascals-triangle-ii/
  * level: easy
  */
-public class MyPascalsTriangle2 {
+public class PascalsTriangle2 {
     public List<Integer> getRow(int rowIndex) {
 //        List<Integer> result = new ArrayList<>();
 
@@ -29,6 +29,6 @@ public class MyPascalsTriangle2 {
     }
 
     public static void main(String[] args) {
-        System.out.println(new MyPascalsTriangle2().getRow(3));
+        System.out.println(new PascalsTriangle2().getRow(3));
     }
 }
