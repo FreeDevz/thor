@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="refactored class names">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/AssignCookies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/FindAllNumbersDisappearedInAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/PowerOfTwo.java" afterDir="false" />
+    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added more LeetCode tests.">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/AlertUsingKeyCardsThreeOrMoreTimeInOneHourPeriod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -448,7 +446,7 @@
       <workItem from="1756787094139" duration="131000" />
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
-      <workItem from="1756787643525" duration="296488000" />
+      <workItem from="1756787643525" duration="311519000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with Java project setup.">
       <option name="closed" value="true" />
@@ -818,7 +816,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759864574388</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="added more LeetCode tests.">
+      <option name="closed" value="true" />
+      <created>1760003526291</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1760003526291</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -846,11 +852,11 @@
     <MESSAGE value="added MyExcelSheetColumnNumber" />
     <MESSAGE value="added new tests." />
     <MESSAGE value="refactored to use sliding window technique in MyContainsDuplicate2" />
-    <MESSAGE value="added more LeetCode tests." />
     <MESSAGE value="added more LeetCode tests for sliding window and substring problems." />
     <MESSAGE value="refactored" />
     <MESSAGE value="refactored class names" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored class names" />
+    <MESSAGE value="added more LeetCode tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="added more LeetCode tests." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
