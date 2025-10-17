@@ -1,4 +1,4 @@
-package io.awijaya.lab;
+package io.awijaya.lab3;
 
 import java.util.*;
 
