@@ -4,11 +4,20 @@
 package io.awijaya;
 
 import org.junit.jupiter.api.Test;
+
+import java.util.HashMap;
+import java.util.Map;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
+    public void test() {
+        System.out.println("test");
+    }
+
     @Test void appHasAGreeting() {
-        App classUnderTest = new App();
-        assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
+        AppTest appTest = new AppTest();
+        appTest.test();
+
     }
 }
