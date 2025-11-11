@@ -8,6 +8,7 @@ import java.util.Objects;
 /**
  * https://leetcode.com/problems/design-browser-history/description/
  * level: medium
+ * type: code design
  */
 public class DesignBrowserHistory {
     private static final int MAX_URL_LENGTH = 2048;

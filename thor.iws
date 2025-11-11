@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added more LeetCode tests.">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/DesignHitCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/DesignSearchAutocompleteSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/DesignBrowserHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/DesignBrowserHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/DesignHitCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/DesignHitCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/DesignSnakeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/DesignSnakeGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/MyCalendarI.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/MyCalendarI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/NetworkDelayTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/NetworkDelayTime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
@@ -129,6 +133,8 @@
     "Application.ClaudeBinarySearchTree.executor": "Run",
     "Application.ClosestBinaryTreeSearchValue.executor": "Run",
     "Application.DefuseTheBomb.executor": "Debug",
+    "Application.DesignHitCounter.executor": "Run",
+    "Application.DesignSearchAutocompleteSystem.executor": "Run",
     "Application.FindAllNumbersDisappearedInAnArray.executor": "Debug",
     "Application.GuessNumberHigherOrLower.executor": "Run",
     "Application.LetterCombinationOfPhoneNumbers.executor": "Debug",
@@ -221,7 +227,7 @@
       <recent name="io.awijaya.lab3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DesignHitCounter">
+  <component name="RunManager" selected="Application.DesignSearchAutocompleteSystem">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -272,6 +278,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DesignSearchAutocompleteSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab3.DesignSearchAutocompleteSystem" />
+      <module name="app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.awijaya.lab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyCalendarI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.awijaya.lab3.MyCalendarI" />
       <module name="app" />
@@ -294,21 +315,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.awijaya.lab3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RangeSumQueryImmutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.RangeSumQueryImmutable" />
-      <module name="app" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.awijaya.lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -410,11 +416,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DesignHitCounter" />
+        <item itemvalue="Application.DesignSearchAutocompleteSystem" />
         <item itemvalue="Application.NetworkDelayTime" />
+        <item itemvalue="Application.DesignHitCounter" />
         <item itemvalue="Application.MyCalendarI" />
         <item itemvalue="Application.ClosestBinaryTreeSearchValue" />
-        <item itemvalue="Application.RangeSumQueryImmutable" />
       </list>
     </recent_temporary>
   </component>
@@ -464,15 +470,7 @@
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
       <workItem from="1756787643525" duration="383518000" />
-      <workItem from="1761676925911" duration="50066000" />
-    </task>
-    <task id="LOCAL-00004" summary="added ClaudeBinarySearchTree">
-      <option name="closed" value="true" />
-      <created>1756804801989</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1756804801989</updated>
+      <workItem from="1761676925911" duration="52771000" />
     </task>
     <task id="LOCAL-00005" summary="added ALGO_notey.md">
       <option name="closed" value="true" />
@@ -858,7 +856,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762845505755</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="added more LeetCode tests.">
+      <option name="closed" value="true" />
+      <created>1762846385847</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1762846385847</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

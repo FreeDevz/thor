@@ -6,6 +6,7 @@ import java.util.TreeMap;
 /**
  * https://leetcode.com/problems/my-calendar-i/submissions/1824958135/
  * level: medium
+ * type: code design
  */
 public class MyCalendarI {
     public static void validateInterval(int start, int end) {

@@ -115,6 +115,9 @@ public class NetworkDelayTime {
         test2.offer("a");
         test2.offer("c");
         test2.offer("a");
+        test2.offer(" ");
+        test2.offer("ironman");
+        test2.offer("i love leetcode");
 
         System.out.println("test2.size(): " + test2.size());
         while (!test2.isEmpty()) {

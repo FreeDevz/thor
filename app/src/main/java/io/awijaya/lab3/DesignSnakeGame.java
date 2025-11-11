@@ -4,7 +4,9 @@ import java.util.*;
 
 /**
  * https://leetcode.com/problems/design-snake-game/description/
+ * https://leetcode.ca/2016-11-17-353-Design-Snake-Game/
  * level: medium
+ * type: code design
  */
 public final class DesignSnakeGame {
 

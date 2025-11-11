@@ -3,6 +3,12 @@ package io.awijaya.lab3;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+/**
+ * https://leetcode.ca/2016-11-26-362-Design-Hit-Counter/
+ * level: medium
+ * type: code design
+ *
+ */
 public class DesignHitCounter {
     /** Number of seconds included in the trailing window (5 minutes). */
     public static final int WINDOW_DURATION_SECONDS = 300;
