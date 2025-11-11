@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added more LeetCode tests.">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/ClosestBinaryTreeSearchValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/DesignBrowserHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/DesignSnakeGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/MyCalendarI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/NetworkDelayTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/TopKFrequentElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/NetworkDelayTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/NetworkDelayTime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,6 +139,7 @@
     "Application.MyBestTimeToBuyAndSellStock.executor": "Debug",
     "Application.MyBinarySearchTree.executor": "Run",
     "Application.MyBinaryTreeInorderTraversal.executor": "Debug",
+    "Application.MyCalendarI.executor": "Run",
     "Application.MyClimbingStairs.executor": "Run",
     "Application.MyContainsDuplicate2.executor": "Run",
     "Application.MyConvertArrayToBinarySearchTree.executor": "Run",
@@ -181,7 +177,7 @@
     "Application.MySymmetricTree.executor": "Run",
     "Application.MyValidPalindrome.executor": "Run",
     "Application.MyValidParentheses.executor": "Run",
-    "Application.NetworkDelayTime.executor": "Debug",
+    "Application.NetworkDelayTime.executor": "Run",
     "Application.NumArray.executor": "Run",
     "Application.PascalsTriangle2.executor": "Debug",
     "Application.RangeSumQueryImmutable.executor": "Debug",
@@ -224,7 +220,7 @@
       <recent name="io.awijaya.lab3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClosestBinaryTreeSearchValue">
+  <component name="RunManager" selected="Application.NetworkDelayTime">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -260,8 +256,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab3.MergeIntervals" />
+    <configuration name="MyCalendarI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab3.MyCalendarI" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -413,11 +409,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NetworkDelayTime" />
+        <item itemvalue="Application.MyCalendarI" />
         <item itemvalue="Application.ClosestBinaryTreeSearchValue" />
         <item itemvalue="Application.RangeSumQueryImmutable" />
         <item itemvalue="Application.TopKFrequentElements" />
-        <item itemvalue="Application.NetworkDelayTime" />
-        <item itemvalue="Application.MergeIntervals" />
       </list>
     </recent_temporary>
   </component>
@@ -467,15 +463,7 @@
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
       <workItem from="1756787643525" duration="383518000" />
-      <workItem from="1761676925911" duration="43966000" />
-    </task>
-    <task id="LOCAL-00002" summary="fixed unit test dependencies">
-      <option name="closed" value="true" />
-      <created>1756787951983</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1756787951983</updated>
+      <workItem from="1761676925911" duration="49274000" />
     </task>
     <task id="LOCAL-00003" summary="refactored and added BinarySearchTree own implementation.">
       <option name="closed" value="true" />
@@ -861,7 +849,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762050780210</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="added more LeetCode tests.">
+      <option name="closed" value="true" />
+      <created>1762837601858</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1762837601858</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1681,61 +1677,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/NetworkDelayTime.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="336" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/NetworkDelayTime.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="337" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/NetworkDelayTime.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="338" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/NetworkDelayTime.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="339" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/NetworkDelayTime.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="340" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/NetworkDelayTime.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="341" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/NetworkDelayTime.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="342" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/NetworkDelayTime.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="343" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/NetworkDelayTime.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="344" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/NetworkDelayTime.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="345" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/NetworkDelayTime.java</url>
-          <line>74</line>
-          <option name="timeStamp" value="346" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/NetworkDelayTime.java</url>
           <line>89</line>
           <option name="timeStamp" value="347" />
         </line-breakpoint>
@@ -1758,11 +1699,6 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/NetworkDelayTime.java</url>
           <line>86</line>
           <option name="timeStamp" value="351" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/NetworkDelayTime.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="352" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/TopKFrequentElements.java</url>

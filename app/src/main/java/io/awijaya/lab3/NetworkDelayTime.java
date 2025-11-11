@@ -94,5 +94,31 @@ public class NetworkDelayTime {
         NetworkDelayTime networkDelayTime = new NetworkDelayTime();
         int[][] times = new int[][]{{2, 1, 1}, {2, 3, 1}, {3, 4, 1}};
         System.out.println(networkDelayTime.networkDelayTime(times, 4, 2));
+
+        PriorityQueue<Integer> test = new PriorityQueue<>();
+        test.offer(3);
+        test.offer(0);
+        test.offer(1);
+        test.offer(2);
+        test.offer(4);
+        test.offer(0);
+
+        while (!test.isEmpty()) {
+            int i = test.poll();
+            System.out.println(i);
+        }
+
+        PriorityQueue<String> test2 = new PriorityQueue<>();
+        test2.offer("d");
+        test2.offer("b");
+        test2.offer("e");
+        test2.offer("a");
+        test2.offer("c");
+        test2.offer("a");
+
+        while (!test2.isEmpty()) {
+            String s = test2.poll();
+            System.out.println(s);
+        }
     }
 }
