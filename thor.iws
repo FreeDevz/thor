@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added more LeetCode tests.">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/DesignHitCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/NetworkDelayTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/NetworkDelayTime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
@@ -220,7 +221,7 @@
       <recent name="io.awijaya.lab3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NetworkDelayTime">
+  <component name="RunManager" selected="Application.DesignHitCounter">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -243,6 +244,21 @@
     </configuration>
     <configuration name="ClosestBinaryTreeSearchValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.awijaya.lab3.ClosestBinaryTreeSearchValue" />
+      <module name="app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.awijaya.lab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DesignHitCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab3.DesignHitCounter" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -293,21 +309,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.awijaya.lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TopKFrequentElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab3.TopKFrequentElements" />
-      <module name="app" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.awijaya.lab3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -409,11 +410,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DesignHitCounter" />
         <item itemvalue="Application.NetworkDelayTime" />
         <item itemvalue="Application.MyCalendarI" />
         <item itemvalue="Application.ClosestBinaryTreeSearchValue" />
         <item itemvalue="Application.RangeSumQueryImmutable" />
-        <item itemvalue="Application.TopKFrequentElements" />
       </list>
     </recent_temporary>
   </component>
@@ -463,15 +464,7 @@
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
       <workItem from="1756787643525" duration="383518000" />
-      <workItem from="1761676925911" duration="49274000" />
-    </task>
-    <task id="LOCAL-00003" summary="refactored and added BinarySearchTree own implementation.">
-      <option name="closed" value="true" />
-      <created>1756794337006</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1756794337006</updated>
+      <workItem from="1761676925911" duration="50066000" />
     </task>
     <task id="LOCAL-00004" summary="added ClaudeBinarySearchTree">
       <option name="closed" value="true" />
@@ -857,7 +850,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762837601858</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="added more LeetCode tests.">
+      <option name="closed" value="true" />
+      <created>1762845505754</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1762845505755</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

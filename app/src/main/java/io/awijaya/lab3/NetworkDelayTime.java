@@ -116,6 +116,7 @@ public class NetworkDelayTime {
         test2.offer("c");
         test2.offer("a");
 
+        System.out.println("test2.size(): " + test2.size());
         while (!test2.isEmpty()) {
             String s = test2.poll();
             System.out.println(s);
