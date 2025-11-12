@@ -238,134 +238,22 @@ public final class DesignSnakeGame {
         }
     }
 
-    /**
-     * Approach 2: Custom Doubly Linked List.
-     *
-     * <p>
-     * Represents the snake body as a doubly linked list to emphasize constant-time insertion and
-     * removal at both ends. A hash set tracks occupied cells for collision detection; the list
-     * nodes are only used for traversal and snapshot creation.
-     *
-     * <p>
-     * Time Complexity: {@code O(1)} per {@link #move(Direction)}<br>
-     * Space Complexity: {@code O(k)} where {@code k} is the snake length
-     */
-    public static final class SnakeGameLinkedList {
-        private final int width;
-        private final int height;
-        private final int[][] food;
-
-        private Node head;
-        private Node tail;
-        private final Set<Integer> occupied = new HashSet<>();
-        private int foodIndex;
-        private int score;
-        private boolean gameOver;
-
-        public SnakeGameLinkedList(int width, int height, int[][] food) {
-            validateDimensions(width, height);
-            validateFood(width, height, food);
-            this.width = width;
-            this.height = height;
-            this.food = deepCopy(food);
-            head = tail = new Node(0, 0);
-            occupied.add(encode(0, 0, width));
-        }
-
-        public int move(Direction direction) {
-            Objects.requireNonNull(direction, "Direction must not be null");
-            if (gameOver) {
-                return -1;
-            }
-
-            int nextRow = head.row + direction.rowDelta();
-            int nextCol = head.col + direction.colDelta();
-
-            if (isOutOfBounds(nextRow, nextCol)) {
-                gameOver = true;
-                return -1;
-            }
-
-            boolean eatsFood = foodIndex < food.length && nextRow == food[foodIndex][0]
-                    && nextCol == food[foodIndex][1];
-
-            if (!eatsFood) {
-                removeTail();
-            }
-
-            int encoded = encode(nextRow, nextCol, width);
-            if (occupied.contains(encoded)) {
-                gameOver = true;
-                return -1;
-            }
-
-            prepend(nextRow, nextCol);
-            occupied.add(encoded);
-
-            if (eatsFood) {
-                score++;
-                foodIndex++;
-            }
-            return score;
-        }
-
-        public int score() {
-            return score;
-        }
-
-        public boolean isGameOver() {
-            return gameOver;
-        }
-
-        public List<int[]> snapshot() {
-            List<int[]> result = new ArrayList<>();
-            for (Node node = head; node != null; node = node.next) {
-                result.add(new int[] {node.row, node.col});
-            }
-            return Collections.unmodifiableList(result);
-        }
-
-        private void prepend(int row, int col) {
-            Node newHead = new Node(row, col);
-            newHead.next = head;
-            head.prev = newHead;
-            head = newHead;
-        }
-
-        private void removeTail() {
-            int encoded = encode(tail.row, tail.col, width);
-            occupied.remove(encoded);
-            if (head == tail) {
-                return;
-            }
-            tail = tail.prev;
-            tail.next.prev = null;
-            tail.next = null;
-        }
-
-        private boolean isOutOfBounds(int row, int col) {
-            return row < 0 || row >= height || col < 0 || col >= width;
-        }
-
-        private static final class Node {
-            private final int row;
-            private final int col;
-            private Node prev;
-            private Node next;
-
-            private Node(int row, int col) {
-                this.row = row;
-                this.col = col;
-            }
-        }
-    }
-
     private static int[][] deepCopy(int[][] food) {
         int[][] copy = new int[food.length][];
         for (int i = 0; i < food.length; i++) {
             copy[i] = food[i].clone();
         }
         return copy;
+    }
+
+    public static void main(String[] args) {
+        SnakeGameDeque snakeGameDeque = new SnakeGameDeque(3, 2, new int[][] {{1, 2}, {0, 1}});
+        System.out.println(snakeGameDeque.move(Direction.fromString("R"))); // return 0
+//        System.out.println(snakeGameDeque.move(Direction.fromString("D"))); // return 0
+//        System.out.println(snakeGameDeque.move(Direction.fromString("R"))); // return 1, snake eats the first piece of food. The second piece of food appears at (0, 1).
+//        System.out.println(snakeGameDeque.move(Direction.fromString("U"))); // return 1
+//        System.out.println(snakeGameDeque.move(Direction.fromString("L"))); // return 2, snake eats the second food. No more food appears.
+//        System.out.println(snakeGameDeque.move(Direction.fromString("U"))); // return -1, game over because snake collides with border
     }
 }
 
