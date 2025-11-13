@@ -4,7 +4,7 @@ package io.awijaya.lab;
  * https://leetcode.com/problems/same-tree/
  * level: easy
  */
-public class MySameTree {
+public class SameTree {
 
     public static boolean isSameTree(TreeNode p, TreeNode q) {
         if (p != null && q == null || p == null && q != null) {

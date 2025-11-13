@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added more LeetCode tests.">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/DesignSnakeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/DesignSnakeGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/test/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyRemoveDuplicatesFromSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/RemoveDuplicatesFromSortedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyRomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/RomanToInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySameTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/SameTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/SearchInsertPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/TopKFrequentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/TopKFrequentElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/io/awijaya/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/io/awijaya/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,6 +187,7 @@
     "Application.MyValidPalindrome.executor": "Run",
     "Application.MyValidParentheses.executor": "Run",
     "Application.NetworkDelayTime.executor": "Run",
+    "Application.NotificationService.executor": "Run",
     "Application.NumArray.executor": "Run",
     "Application.PascalsTriangle2.executor": "Debug",
     "Application.RangeSumQueryImmutable.executor": "Debug",
@@ -223,7 +230,7 @@
       <recent name="io.awijaya.lab3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DesignSnakeGame">
+  <component name="RunManager" selected="Application.NotificationService">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -289,8 +296,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyCalendarI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab3.MyCalendarI" />
+    <configuration name="NetworkDelayTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab3.NetworkDelayTime" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -304,13 +311,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NetworkDelayTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab3.NetworkDelayTime" />
+    <configuration name="NotificationService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.test.NotificationService" />
       <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.awijaya.lab3.*" />
+          <option name="PATTERN" value="io.awijaya.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -412,11 +419,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NotificationService" />
         <item itemvalue="Application.DesignSnakeGame" />
         <item itemvalue="Application.DesignSearchAutocompleteSystem" />
         <item itemvalue="Application.NetworkDelayTime" />
         <item itemvalue="Application.DesignHitCounter" />
-        <item itemvalue="Application.MyCalendarI" />
       </list>
     </recent_temporary>
   </component>
@@ -466,15 +473,7 @@
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
       <workItem from="1756787643525" duration="383518000" />
-      <workItem from="1761676925911" duration="65570000" />
-    </task>
-    <task id="LOCAL-00006" summary="added new algo tests">
-      <option name="closed" value="true" />
-      <created>1756961882778</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1756961882778</updated>
+      <workItem from="1761676925911" duration="74519000" />
     </task>
     <task id="LOCAL-00007" summary="added MyRemoveElement algo test">
       <option name="closed" value="true" />
@@ -860,7 +859,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762849416508</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="added more LeetCode tests.">
+      <option name="closed" value="true" />
+      <created>1762919126576</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1762919126576</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1059,42 +1066,42 @@
           <option name="timeStamp" value="127" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySameTree.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/SameTree.java</url>
           <line>8</line>
           <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySameTree.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/SameTree.java</url>
           <line>9</line>
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySameTree.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/SameTree.java</url>
           <line>11</line>
           <option name="timeStamp" value="132" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySameTree.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/SameTree.java</url>
           <line>20</line>
           <option name="timeStamp" value="133" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySameTree.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/SameTree.java</url>
           <line>12</line>
           <option name="timeStamp" value="134" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySameTree.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/SameTree.java</url>
           <line>13</line>
           <option name="timeStamp" value="135" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySameTree.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/SameTree.java</url>
           <line>15</line>
           <option name="timeStamp" value="136" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySameTree.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/SameTree.java</url>
           <line>17</line>
           <option name="timeStamp" value="137" />
         </line-breakpoint>
@@ -1149,32 +1156,32 @@
           <option name="timeStamp" value="182" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySearchInsertPosition.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/SearchInsertPosition.java</url>
           <line>18</line>
           <option name="timeStamp" value="183" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySearchInsertPosition.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/SearchInsertPosition.java</url>
           <line>15</line>
           <option name="timeStamp" value="186" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySearchInsertPosition.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/SearchInsertPosition.java</url>
           <line>16</line>
           <option name="timeStamp" value="187" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySearchInsertPosition.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/SearchInsertPosition.java</url>
           <line>24</line>
           <option name="timeStamp" value="189" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySearchInsertPosition.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/SearchInsertPosition.java</url>
           <line>12</line>
           <option name="timeStamp" value="190" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MySearchInsertPosition.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/SearchInsertPosition.java</url>
           <line>13</line>
           <option name="timeStamp" value="191" />
         </line-breakpoint>
@@ -1705,22 +1712,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/TopKFrequentElements.java</url>
-          <line>48</line>
+          <line>47</line>
           <option name="timeStamp" value="356" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/TopKFrequentElements.java</url>
-          <line>49</line>
+          <line>48</line>
           <option name="timeStamp" value="357" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/TopKFrequentElements.java</url>
-          <line>50</line>
+          <line>49</line>
           <option name="timeStamp" value="358" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab3/TopKFrequentElements.java</url>
-          <line>51</line>
+          <line>50</line>
           <option name="timeStamp" value="359" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

@@ -1,9 +1,8 @@
 package io.awijaya.lab3;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import com.google.common.collect.Lists;
+
+import java.util.*;
 
 /**
  * https://leetcode.com/problems/top-k-frequent-elements/description/

@@ -4,7 +4,7 @@ package io.awijaya.lab;
  * https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/
  * level: easy
  */
-public class MyRemoveDuplicatesFromSortedList {
+public class RemoveDuplicatesFromSortedList {
 
     class ListNode {
         int val;

@@ -18,6 +18,5 @@ class AppTest {
     @Test void appHasAGreeting() {
         AppTest appTest = new AppTest();
         appTest.test();
-
     }
 }

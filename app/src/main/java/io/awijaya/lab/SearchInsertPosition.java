@@ -4,7 +4,7 @@ package io.awijaya.lab;
  * https://leetcode.com/problems/search-insert-position/
  * level: easy
  */
-public class MySearchInsertPosition {
+public class SearchInsertPosition {
 
     public static int searchInsert(int[] nums, int target) {
         int left = 0;
