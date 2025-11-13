@@ -6,7 +6,7 @@ import java.util.Arrays;
  * https://leetcode.com/problems/majority-element/
  * level: easy
  */
-public class MyMajorityElement {
+public class MajorityElement {
     public int majorityElement(int[] nums) {
         if (nums.length == 1) return nums[0];
 
@@ -67,15 +67,15 @@ public class MyMajorityElement {
     }
 
     public static void main(String[] args) {
-        MyMajorityElement myMajorityElement = new MyMajorityElement();
+        MajorityElement majorityElement = new MajorityElement();
 
         int[] test = {3, 2, 3};
-        System.out.println(myMajorityElement.majorityElement(test)); // 3
+        System.out.println(majorityElement.majorityElement(test)); // 3
 
         int[] test2 = {2, 2, 1, 1, 1, 2, 2};
-        System.out.println(myMajorityElement.majorityElement(test2)); // 2
+        System.out.println(majorityElement.majorityElement(test2)); // 2
 
         int[] test3 = {2, 2, 1, 1, 3, 3, 3, 4, 4};
-        System.out.println(myMajorityElement.majorityElementByCursor(test3)); // 3
+        System.out.println(majorityElement.majorityElementByCursor(test3)); // 3
     }
 }
