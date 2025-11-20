@@ -114,9 +114,9 @@ public class LowestCommonAncestor {
         // Create a non-binary tree:
         //          1
         //       /  |  \
-        //      2   3   4
-        //     / \      | \
-        //    5   6     7  12
+        //      2   3    4
+        //     / \      |  \
+        //    5   6     7   12
         //             / \ \
         //            8   9 10
         //                 /

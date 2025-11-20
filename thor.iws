@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="refactored names">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/test/EmployeeDirectoryUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/test/LowestCommonAncestor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MaximumAverageSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MaximumAverageSubarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/MyLengthOfLastWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/LengthOfLastWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/test/Test1.java" beforeDir="false" />
+    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added more tests">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/test/LowestCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/test/LowestCommonAncestor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +135,7 @@
     "Application.GuessNumberHigherOrLower.executor": "Run",
     "Application.LetterCombinationOfPhoneNumbers.executor": "Debug",
     "Application.LongestHarmoniousSubsequence.executor": "Run",
-    "Application.LowestCommonAncestor.executor": "Run",
+    "Application.LowestCommonAncestor.executor": "Debug",
     "Application.MaximumAverageSubarray.executor": "Debug",
     "Application.MergeIntervals.executor": "Run",
     "Application.MyAddBinary.executor": "Debug",
@@ -472,15 +468,7 @@
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
       <workItem from="1756787643525" duration="383518000" />
-      <workItem from="1761676925911" duration="93368000" />
-    </task>
-    <task id="LOCAL-00009" summary="added MyRemoveDuplicatesFromSortedArray algo">
-      <option name="closed" value="true" />
-      <created>1757068512081</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1757068512081</updated>
+      <workItem from="1761676925911" duration="97327000" />
     </task>
     <task id="LOCAL-00010" summary="added MySqrtx algo">
       <option name="closed" value="true" />
@@ -866,7 +854,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763004209465</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="added more tests">
+      <option name="closed" value="true" />
+      <created>1763598323945</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1763598323945</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -879,7 +875,6 @@
     <MESSAGE value="added LeetCode link to MyRemoveDuplicatesFromSortedArray" />
     <MESSAGE value="added 5 more LeetCode Easy tests" />
     <MESSAGE value="added MyPascalsTriangle tests" />
-    <MESSAGE value="added more tests" />
     <MESSAGE value="added MyLinkedListCycle" />
     <MESSAGE value="added more tests." />
     <MESSAGE value="add more LeetCode problems." />
@@ -898,7 +893,8 @@
     <MESSAGE value="refactored class names" />
     <MESSAGE value="added more LeetCode tests." />
     <MESSAGE value="refactored names" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored names" />
+    <MESSAGE value="added more tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added more tests" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1833,6 +1829,11 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/test/LowestCommonAncestor.java</url>
           <line>72</line>
           <option name="timeStamp" value="382" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/test/LowestCommonAncestor.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="383" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
