@@ -4,7 +4,7 @@ package io.awijaya.lab;
  * https://leetcode.com/problems/length-of-last-word/description
  * level: easy
  */
-public class MyLengthOfLastWord {
+public class LengthOfLastWord {
 
     public int lengthOfLastWord(String s) {
         String trimmed = s.trim();

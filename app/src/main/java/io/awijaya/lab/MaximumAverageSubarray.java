@@ -40,16 +40,16 @@ public class MaximumAverageSubarray {
         int[] nums = {1, 12, -5, -6, 50, 3};
         System.out.println(maximumAverageSubarray.findMaxAverage(nums, 4)); // 12.75000
 
-        int[] nums2 = {5};
-        System.out.println(maximumAverageSubarray.findMaxAverage(nums2, 1)); // 5
-
-        int[] nums3 = {0, 1, 1, 3, 3};
-        System.out.println(maximumAverageSubarray.findMaxAverage(nums3, 4)); // 2.00000
-
-        int[] nums4 = {-1};
-        System.out.println(maximumAverageSubarray.findMaxAverage(nums4, 1)); // -1
-
-        int[] nums5 = {8860, -853, 6534, 4477, -45891};
-        System.out.println(maximumAverageSubarray.findMaxAverage(nums5, 5)); // -5374.6
+//        int[] nums2 = {5};
+//        System.out.println(maximumAverageSubarray.findMaxAverage(nums2, 1)); // 5
+//
+//        int[] nums3 = {0, 1, 1, 3, 3};
+//        System.out.println(maximumAverageSubarray.findMaxAverage(nums3, 4)); // 2.00000
+//
+//        int[] nums4 = {-1};
+//        System.out.println(maximumAverageSubarray.findMaxAverage(nums4, 1)); // -1
+//
+//        int[] nums5 = {8860, -853, 6534, 4477, -45891};
+//        System.out.println(maximumAverageSubarray.findMaxAverage(nums5, 5)); // -5374.6
     }
 }
