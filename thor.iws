@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added more tests">
+    <list default="true" id="06b8a151-cf5a-45ce-8f71-9ad24c37f0e1" name="Changes" comment="added LowestCommonAncestor">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/NumberOfBeautifulSubsets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/io/awijaya/test/LowestCommonAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/awijaya/test/LowestCommonAncestor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thor.iws" beforeDir="false" afterPath="$PROJECT_DIR$/thor.iws" afterDir="false" />
     </list>
@@ -135,7 +136,7 @@
     "Application.GuessNumberHigherOrLower.executor": "Run",
     "Application.LetterCombinationOfPhoneNumbers.executor": "Debug",
     "Application.LongestHarmoniousSubsequence.executor": "Run",
-    "Application.LowestCommonAncestor.executor": "Debug",
+    "Application.LowestCommonAncestor.executor": "Run",
     "Application.MaximumAverageSubarray.executor": "Debug",
     "Application.MergeIntervals.executor": "Run",
     "Application.MyAddBinary.executor": "Debug",
@@ -184,6 +185,7 @@
     "Application.NetworkDelayTime.executor": "Run",
     "Application.NotificationService.executor": "Run",
     "Application.NumArray.executor": "Run",
+    "Application.NumberOfBeautifulSubsets.executor": "Debug",
     "Application.PascalsTriangle2.executor": "Debug",
     "Application.RangeSumQueryImmutable.executor": "Debug",
     "Application.RansomNote2.executor": "Run",
@@ -225,7 +227,7 @@
       <recent name="io.awijaya.lab3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LowestCommonAncestor">
+  <component name="RunManager" selected="Application.NumberOfBeautifulSubsets">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -245,21 +247,6 @@
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
-    </configuration>
-    <configuration name="DesignSearchAutocompleteSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab3.DesignSearchAutocompleteSystem" />
-      <module name="app" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.awijaya.lab3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="DesignSnakeGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.awijaya.lab3.DesignSnakeGame" />
@@ -313,6 +300,21 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.awijaya.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberOfBeautifulSubsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.awijaya.lab.NumberOfBeautifulSubsets" />
+      <module name="app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.awijaya.lab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -414,11 +416,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfBeautifulSubsets" />
         <item itemvalue="Application.LowestCommonAncestor" />
         <item itemvalue="Application.MaximumAverageSubarray" />
         <item itemvalue="Application.NotificationService" />
         <item itemvalue="Application.DesignSnakeGame" />
-        <item itemvalue="Application.DesignSearchAutocompleteSystem" />
       </list>
     </recent_temporary>
   </component>
@@ -468,15 +470,7 @@
       <workItem from="1756787233510" duration="270000" />
       <workItem from="1756787512589" duration="122000" />
       <workItem from="1756787643525" duration="383518000" />
-      <workItem from="1761676925911" duration="97327000" />
-    </task>
-    <task id="LOCAL-00010" summary="added MySqrtx algo">
-      <option name="closed" value="true" />
-      <created>1757152839747</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1757152839747</updated>
+      <workItem from="1761676925911" duration="107926000" />
     </task>
     <task id="LOCAL-00011" summary="added MyClimbingStairs.java and MyFibonacciSequence.java to train on bottom-up dynamic programming.">
       <option name="closed" value="true" />
@@ -862,14 +856,21 @@
       <option name="project" value="LOCAL" />
       <updated>1763598323945</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="added LowestCommonAncestor">
+      <option name="closed" value="true" />
+      <created>1763625448204</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1763625448204</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactored package to lab" />
     <MESSAGE value="added MyConvertArrayToBinarySearchTree.java" />
     <MESSAGE value="added more algo tests" />
     <MESSAGE value="added LeetCode link to MyRemoveDuplicatesFromSortedArray" />
@@ -894,7 +895,8 @@
     <MESSAGE value="added more LeetCode tests." />
     <MESSAGE value="refactored names" />
     <MESSAGE value="added more tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="added more tests" />
+    <MESSAGE value="added LowestCommonAncestor" />
+    <option name="LAST_COMMIT_MESSAGE" value="added LowestCommonAncestor" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1792,48 +1794,53 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/test/LowestCommonAncestor.java</url>
-          <line>58</line>
+          <line>61</line>
           <option name="timeStamp" value="375" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/test/LowestCommonAncestor.java</url>
-          <line>64</line>
+          <line>67</line>
           <option name="timeStamp" value="376" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/test/LowestCommonAncestor.java</url>
-          <line>69</line>
+          <line>72</line>
           <option name="timeStamp" value="377" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/test/LowestCommonAncestor.java</url>
-          <line>56</line>
+          <line>59</line>
           <option name="timeStamp" value="378" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/test/LowestCommonAncestor.java</url>
-          <line>50</line>
+          <line>53</line>
           <option name="timeStamp" value="379" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/test/LowestCommonAncestor.java</url>
-          <line>57</line>
+          <line>60</line>
           <option name="timeStamp" value="380" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/test/LowestCommonAncestor.java</url>
-          <line>49</line>
+          <line>52</line>
           <option name="timeStamp" value="381" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/test/LowestCommonAncestor.java</url>
-          <line>72</line>
+          <line>75</line>
           <option name="timeStamp" value="382" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/test/LowestCommonAncestor.java</url>
-          <line>68</line>
+          <line>71</line>
           <option name="timeStamp" value="383" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/io/awijaya/lab/NumberOfBeautifulSubsets.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="385" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

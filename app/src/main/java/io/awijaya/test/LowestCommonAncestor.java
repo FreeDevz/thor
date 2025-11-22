@@ -21,6 +21,9 @@ class TreeNode {
     }
 }
 
+/**
+ * Claude prompt: Give an example in Java, where there’s a non-binary Tree, we need to find the first common parent of leaf nodes.
+ */
 public class LowestCommonAncestor {
     // Find LCA of leaf nodes
     public static TreeNode findLCAList(TreeNode root, List<TreeNode> leaves) {
